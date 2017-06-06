@@ -131,7 +131,7 @@ void printHelp (const po::options_description& desc)
            "     account_tx accountID [ledger_min [ledger_max [limit [offset]]]] [binary] [count] [descending]\n"
            "     book_offers <taker_pays> <taker_gets> [<taker [<ledger> [<limit> [<proof> [<marker>]]]]]\n"
            "     can_delete [<ledgerid>|<ledgerhash>|now|always|never]\n"
-           "     channel_authorize <private_key> <channel_id> <drops>\n"
+           "     channel_authorize <private_key> <channel_id> <drops> <key_type>\n"
            "     channel_verify <public_key> <channel_id> <drops> <signature>\n"
            "     connect <ip> [<port>]\n"
            "     consensus_info\n"

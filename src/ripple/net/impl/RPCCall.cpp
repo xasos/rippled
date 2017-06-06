@@ -636,7 +636,7 @@ private:
         return parseAccountRaw2 (jvParams, jss::destination_account);
     }
 
-    // channel_authorize <private_key> <channel_id> <drops>
+    // channel_authorize <private_key> <channel_id> <drops> <key_type>
     Json::Value parseChannelAuthorize (Json::Value const& jvParams)
     {
         Json::Value jvRequest (Json::objectValue);
@@ -660,6 +660,8 @@ private:
         {
             return rpcError (rpcCHANNEL_AMT_MALFORMED);
         }
+
+        jvRequest[jss::key_type] = jvParams[3u].asString ();
 
         return jvRequest;
     }
@@ -1010,7 +1012,7 @@ public:
             {   "account_tx",           &RPCParser::parseAccountTransactions,   1,  8   },
             {   "book_offers",          &RPCParser::parseBookOffers,            2,  7   },
             {   "can_delete",           &RPCParser::parseCanDelete,             0,  1   },
-            {   "channel_authorize",    &RPCParser::parseChannelAuthorize,      3,  3   },
+            {   "channel_authorize",    &RPCParser::parseChannelAuthorize,      4,  4   },
             {   "channel_verify",       &RPCParser::parseChannelVerify,         4,  4   },
             {   "connect",              &RPCParser::parseConnect,               1,  2   },
             {   "consensus_info",       &RPCParser::parseAsIs,                  0,  0   },

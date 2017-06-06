@@ -18,6 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
+#include <ripple/beast/core/SystemStats.h>
 #include <ripple/basics/chrono.h>
 #include <ripple/protocol/Feature.h>
 #include <ripple/protocol/Indexes.h>
@@ -766,12 +767,14 @@ struct PayChan_test : public beast::unit_test::suite
         {
             // Verify chan1 auth
             auto const rs =
-                env.rpc ("channel_authorize", "alice", chan1Str, "1000");
+                env.rpc ("channel_authorize", "alice", chan1Str, "1000", "secp256k1");
+            std::cout << rs;
             auto const sig = rs[jss::result][jss::signature].asString ();
             BEAST_EXPECT (!sig.empty ());
             auto const rv = env.rpc (
                 "channel_verify", chan1PkStr, chan1Str, "1000", sig);
             BEAST_EXPECT (rv[jss::result][jss::signature_verified].asBool ());
+            //std::cout << beast::getStackBacktrace();
         }
         {
             // Try to verify chan2 auth with chan1 key

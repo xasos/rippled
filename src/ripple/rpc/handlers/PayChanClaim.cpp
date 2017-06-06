@@ -20,6 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/app/main/Application.h>
 #include <ripple/basics/StringUtilities.h>
+#include <ripple/crypto/KeyType.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple/protocol/ErrorCodes.h>
@@ -37,18 +38,23 @@ namespace ripple {
 //   secret_key: <signing_secret_key>
 //   channel_id: 256-bit channel id
 //   drops: 64-bit uint (as string)
+//   key_type: key type (as string)
 // }
 Json::Value doChannelAuthorize (RPC::Context& context)
 {
     auto const& params (context.params);
-    for (auto const& p : {jss::secret, jss::channel_id, jss::amount})
+    for (auto const& p : {jss::secret, jss::channel_id, jss::amount, jss::key_type})
         if (!params.isMember (p))
             return RPC::missing_field_error (p);
 
-    Json::Value result;
-    auto const keypair = RPC::keypairForSignature (params, result);
-    if (RPC::contains_error (result))
-        return result;
+    std::string const strSk = params[jss::secret].asString ();
+    auto const sk =
+        parseBase58<SecretKey> (TokenType::TOKEN_ACCOUNT_SECRET, strSk);
+    if (!sk)
+        return rpcError (rpcSECRET_MALFORMED);
+
+    auto const key_type = keyTypeFromString(params[jss::key_type].asString ());
+    auto const pk = derivePublicKey(key_type, *sk);
 
     uint256 channelId;
     if (!channelId.SetHexExact (params[jss::channel_id].asString ()))
@@ -67,9 +73,10 @@ Json::Value doChannelAuthorize (RPC::Context& context)
     Serializer msg;
     serializePayChanAuthorization (msg, channelId, XRPAmount (drops));
 
+    Json::Value result;
     try
     {
-        auto const buf = sign (keypair.first, keypair.second, msg.slice ());
+        auto const buf = sign (pk, *sk, msg.slice ());
         result[jss::signature] = strHex (buf);
     }
     catch (std::exception&)
