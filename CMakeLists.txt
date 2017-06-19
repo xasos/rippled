@@ -119,6 +119,8 @@ determine_build_type()
 
 check_gcc4_abi()
 
+add_subdirectory(src/ripple-libpp/src/unity)
+
 ############################################################
 
 include_directories(

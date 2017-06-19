@@ -35,7 +35,7 @@
 #include <ripple/protocol/impl/Quality.cpp>
 #include <ripple/protocol/impl/Rate2.cpp>
 #include <ripple/protocol/impl/SecretKey.cpp>
-#include <ripple/protocol/impl/Seed.cpp>
+#include <ripple-libpp/src/unity/src/impl/Seed.cpp>
 #include <ripple/protocol/impl/Serializer.cpp>
 #include <ripple/protocol/impl/SField.cpp>
 #include <ripple/protocol/impl/Sign.cpp>
