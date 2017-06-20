@@ -43,8 +43,8 @@
 #include <ripple/protocol/digest.h>
 #include <ripple/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/protocol/HashPrefix.h>
 #include <ripple/protocol/types.h>
 #include <ripple/beast/core/LexicalCast.h>

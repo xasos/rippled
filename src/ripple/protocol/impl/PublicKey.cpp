@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/protocol/digest.h>
 #include <ripple/protocol/impl/secp256k1.h>
 #include <ripple/basics/contract.h>

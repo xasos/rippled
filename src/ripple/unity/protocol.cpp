@@ -31,11 +31,11 @@
 #include <ripple/protocol/impl/Issue.cpp>
 #include <ripple/protocol/impl/Keylet.cpp>
 #include <ripple/protocol/impl/LedgerFormats.cpp>
-#include <ripple/protocol/impl/PublicKey.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/PublicKey.cpp>
 #include <ripple/protocol/impl/Quality.cpp>
 #include <ripple/protocol/impl/Rate2.cpp>
-#include <ripple/protocol/impl/SecretKey.cpp>
-#include <ripple-libpp/src/unity/src/impl/Seed.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/SecretKey.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/Seed.cpp>
 #include <ripple/protocol/impl/Serializer.cpp>
 #include <ripple/protocol/impl/SField.cpp>
 #include <ripple/protocol/impl/Sign.cpp>

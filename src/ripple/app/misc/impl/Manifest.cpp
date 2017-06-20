@@ -24,7 +24,7 @@
 #include <ripple/beast/rfc2616.h>
 #include <ripple/core/DatabaseCon.h>
 #include <ripple/json/json_reader.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/protocol/Sign.h>
 #include <beast/core/detail/base64.hpp>
 #include <boost/regex.hpp>

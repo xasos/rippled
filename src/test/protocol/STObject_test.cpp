@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/basics/Log.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/protocol/st.h>
 #include <ripple/json/json_reader.h>
 #include <ripple/json/to_string.h>

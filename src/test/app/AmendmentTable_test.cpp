@@ -25,8 +25,8 @@
 #include <ripple/basics/Log.h>
 #include <ripple/core/ConfigSections.h>
 #include <ripple/protocol/Feature.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/protocol/digest.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/beast/unit_test.h>

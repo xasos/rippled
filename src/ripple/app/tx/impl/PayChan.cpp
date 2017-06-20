@@ -27,7 +27,7 @@
 #include <ripple/protocol/Feature.h>
 #include <ripple/protocol/Indexes.h>
 #include <ripple/protocol/PayChan.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/XRPAmount.h>
 #include <ripple/ledger/View.h>

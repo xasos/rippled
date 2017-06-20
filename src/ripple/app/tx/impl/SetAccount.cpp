@@ -23,7 +23,7 @@
 #include <ripple/core/Config.h>
 #include <ripple/protocol/Feature.h>
 #include <ripple/protocol/Indexes.h>
-#include <ripple-libpp/src/unity/src/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/protocol/Quality.h>
 #include <ripple/protocol/st.h>
 #include <ripple/ledger/View.h>

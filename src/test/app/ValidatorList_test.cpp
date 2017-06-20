@@ -24,8 +24,8 @@
 #include <test/jtx.h>
 #include <ripple/protocol/digest.h>
 #include <ripple/protocol/HashPrefix.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/protocol/Sign.h>
 
 

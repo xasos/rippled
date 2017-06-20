@@ -18,11 +18,11 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/Seed.h>
+#include <ripple-libpp/src/ripple/src/protocol/Seed.h>
 #include <ripple/basics/Buffer.h>
 #include <ripple/protocol/AccountID.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/protocol/digest.h>
 #include <ripple/basics/contract.h>
 #include <ripple/crypto/RFC1751.h>

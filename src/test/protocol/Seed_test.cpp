@@ -19,9 +19,9 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/random.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
-#include <ripple/protocol/Seed.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/Seed.h>
 #include <ripple/beast/unit_test.h>
 #include <ripple/beast/utility/rngfill.h>
 #include <ripple/beast/xor_shift_engine.h>
