@@ -28,8 +28,8 @@
 #include <ripple/core/Config.h>
 #include <ripple/json/to_string.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Feature.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/types.h>
 
 namespace ripple {

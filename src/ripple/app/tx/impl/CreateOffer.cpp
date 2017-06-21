@@ -23,7 +23,7 @@
 #include <ripple/app/paths/Flow.h>
 #include <ripple/ledger/CashDiff.h>
 #include <ripple/ledger/PaymentSandbox.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/st.h>
 #include <ripple/protocol/Quality.h>
 #include <ripple/beast/utility/WrappedSink.h>

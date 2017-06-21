@@ -25,7 +25,7 @@
 #include <ripple/app/ledger/LedgerMaster.h>
 #include <ripple/app/main/Application.h>
 #include <ripple/app/misc/HashRouter.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <boost/optional.hpp>
 

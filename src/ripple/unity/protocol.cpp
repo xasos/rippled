@@ -25,11 +25,11 @@
 #include <ripple-libpp/src/ripple/src/protocol/impl/ByteOrder.cpp>
 #include <ripple-libpp/src/ripple/src/protocol/impl/digest.cpp>
 #include <ripple-libpp/src/ripple/src/protocol/impl/ErrorCodes.cpp>
-#include <ripple/protocol/impl/Feature.cpp>
-#include <ripple/protocol/impl/HashPrefix.cpp>
-#include <ripple/protocol/impl/Indexes.cpp>
-#include <ripple/protocol/impl/Issue.cpp>
-#include <ripple/protocol/impl/Keylet.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/Feature.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/HashPrefix.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/Indexes.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/Issue.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/Keylet.cpp>
 #include <ripple/protocol/impl/LedgerFormats.cpp>
 #include <ripple-libpp/src/ripple/src/protocol/impl/PublicKey.cpp>
 #include <ripple/protocol/impl/Quality.cpp>

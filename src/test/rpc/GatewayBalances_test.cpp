@@ -16,7 +16,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <test/jtx/WSClient.h>
 #include <test/jtx.h>

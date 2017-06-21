@@ -18,7 +18,7 @@
 #include <BeastConfig.h>
 #include <test/jtx.h>
 #include <ripple/ledger/BookDirs.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 
 namespace ripple {
 namespace test {

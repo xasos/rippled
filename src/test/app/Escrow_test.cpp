@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <test/jtx.h>
 #include <ripple/app/tx/applySteps.h>
-#include <ripple/protocol/Feature.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/TxFlags.h>
 

@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/HashPrefix.h>
+#include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 
 namespace ripple {
 

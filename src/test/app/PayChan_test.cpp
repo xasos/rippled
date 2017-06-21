@@ -19,8 +19,8 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/protocol/Feature.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/PayChan.h>
 #include <ripple/protocol/TxFlags.h>

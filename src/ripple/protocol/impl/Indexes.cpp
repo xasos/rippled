@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <cassert>
 
 namespace ripple {

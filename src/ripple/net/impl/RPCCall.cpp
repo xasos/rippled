@@ -30,7 +30,7 @@
 #include <ripple/net/HTTPClient.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/SystemParameters.h>
 #include <ripple/protocol/types.h>
 #include <ripple/rpc/ServerHandler.h>

@@ -30,7 +30,7 @@
 #include <ripple/core/JobQueue.h>
 #include <ripple/overlay/Overlay.h>
 #include <ripple/resource/Fees.h>
-#include <ripple/protocol/HashPrefix.h>
+#include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/nodestore/Database.h>
 #include <algorithm>

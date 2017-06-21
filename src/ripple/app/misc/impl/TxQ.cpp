@@ -23,7 +23,7 @@
 #include <ripple/app/misc/LoadFeeTrack.h>
 #include <ripple/app/tx/apply.h>
 #include <ripple/protocol/st.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/basics/mulDiv.h>
 #include <boost/algorithm/clamp.hpp>

@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/CancelTicket.h>
 #include <ripple/basics/Log.h>
-#include <ripple/protocol/Feature.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/ledger/View.h>
 
 namespace ripple {

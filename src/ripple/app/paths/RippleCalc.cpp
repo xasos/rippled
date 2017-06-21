@@ -25,7 +25,7 @@
 #include <ripple/app/paths/impl/FlowDebugInfo.h>
 #include <ripple/basics/Log.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 
 namespace ripple {
 namespace path {

@@ -22,7 +22,7 @@
 #include <ripple/basics/contract.h>
 #include <ripple/json/json_writer.h>
 #include <ripple/ledger/ReadView.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/IOUAmount.h>
 #include <ripple/protocol/XRPAmount.h>
 

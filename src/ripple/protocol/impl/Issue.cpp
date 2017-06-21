@@ -17,7 +17,7 @@
 */
 //==============================================================================
 
-#include <ripple/protocol/Issue.h>
+#include <ripple-libpp/src/ripple/src/protocol/Issue.h>
 
 namespace ripple {
 

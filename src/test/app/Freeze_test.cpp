@@ -17,7 +17,7 @@
 */
 //==============================================================================
 #include <test/jtx.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/SField.h>

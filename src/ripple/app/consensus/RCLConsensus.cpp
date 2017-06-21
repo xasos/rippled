@@ -36,7 +36,7 @@
 #include <ripple/consensus/LedgerTiming.h>
 #include <ripple/overlay/Overlay.h>
 #include <ripple/overlay/predicates.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 
 namespace ripple {

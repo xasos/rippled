@@ -24,7 +24,7 @@
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/Log.h>
 #include <ripple/core/ConfigSections.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>

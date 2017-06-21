@@ -24,7 +24,7 @@
 #include <ripple/ledger/ApplyViewImpl.h>
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple/ledger/Sandbox.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <test/jtx.h>
 #include <test/jtx/PathSet.h>

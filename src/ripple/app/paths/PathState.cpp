@@ -22,7 +22,7 @@
 #include <ripple/app/paths/PathState.h>
 #include <ripple/basics/Log.h>
 #include <ripple/json/to_string.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <boost/lexical_cast.hpp>
 

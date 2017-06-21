@@ -21,7 +21,7 @@
 #include <ripple/ledger/ReadView.h>
 #include <ripple/protocol/AmountConversions.h>
 #include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 
 namespace ripple {
 

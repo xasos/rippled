@@ -33,7 +33,7 @@
 #include <ripple/net/RPCErr.h>
 #include <ripple/protocol/Sign.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/STAccount.h>
 #include <ripple/protocol/STParsedJSON.h>
 #include <ripple/protocol/TxFlags.h>

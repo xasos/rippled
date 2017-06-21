@@ -23,7 +23,7 @@
 #include <ripple/app/misc/TxQ.h>
 #include <ripple/app/tx/apply.h>
 #include <ripple/ledger/CachedView.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <boost/range/adaptor/transformed.hpp>
 
 namespace ripple {

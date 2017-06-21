@@ -24,7 +24,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/basics/Slice.h>
 #include <ripple/basics/StringUtilities.h>
-#include <ripple/protocol/HashPrefix.h>
+#include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/beast/core/LexicalCast.h>
 #include <mutex>
 

@@ -41,11 +41,11 @@
 #include <ripple/json/to_string.h>
 #include <ripple/nodestore/Database.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/HashPrefix.h>
+#include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/protocol/types.h>
 #include <ripple/beast/core/LexicalCast.h>
 #include <boost/optional.hpp>

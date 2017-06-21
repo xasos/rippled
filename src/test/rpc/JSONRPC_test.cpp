@@ -23,7 +23,7 @@
 #include <ripple/basics/contract.h>
 #include <ripple/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/rpc/impl/TransactionSign.h>
 #include <test/jtx.h>
 #include <test/jtx/envconfig.h>

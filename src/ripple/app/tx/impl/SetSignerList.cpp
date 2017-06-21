@@ -20,11 +20,11 @@
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/SetSignerList.h>
 #include <ripple/app/ledger/Ledger.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/STObject.h>
 #include <ripple/protocol/STArray.h>
 #include <ripple/protocol/STTx.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/basics/Log.h>
 #include <cstdint>
 #include <algorithm>

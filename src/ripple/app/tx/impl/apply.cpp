@@ -22,7 +22,7 @@
 #include <ripple/app/tx/apply.h>
 #include <ripple/app/tx/applySteps.h>
 #include <ripple/app/misc/HashRouter.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 
 namespace ripple {
 

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <cstring>
 
 namespace ripple {

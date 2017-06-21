@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/ledger/BookDirs.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 
 namespace ripple {
 

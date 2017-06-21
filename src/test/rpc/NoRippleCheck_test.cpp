@@ -17,7 +17,7 @@
 */
 //==============================================================================
 
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <test/jtx.h>
 #include <boost/algorithm/string/predicate.hpp>

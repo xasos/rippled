@@ -23,7 +23,7 @@
 #include <test/jtx/PathSet.h>
 #include <ripple/ledger/View.h>
 #include <ripple/protocol/AmountConversions.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 
 namespace ripple {
 namespace test {

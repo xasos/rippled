@@ -24,7 +24,7 @@
 #include <ripple/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple/core/JobQueue.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 
 namespace ripple {
 

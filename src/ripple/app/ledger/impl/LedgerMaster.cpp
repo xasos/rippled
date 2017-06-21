@@ -43,7 +43,7 @@
 #include <ripple/overlay/Overlay.h>
 #include <ripple/overlay/Peer.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
-#include <ripple/protocol/HashPrefix.h>
+#include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/resource/Fees.h>
 #include <algorithm>
 #include <cassert>

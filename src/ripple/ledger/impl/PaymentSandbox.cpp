@@ -21,7 +21,7 @@
 #include <ripple/app/paths/impl/AmountSpec.h>
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/SField.h>
 #include <ripple/protocol/STAccount.h>
 #include <boost/optional.hpp>

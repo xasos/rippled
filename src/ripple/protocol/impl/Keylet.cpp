@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/Keylet.h>
+#include <ripple-libpp/src/ripple/src/protocol/Keylet.h>
 #include <ripple/protocol/STLedgerEntry.h>
 
 namespace ripple {

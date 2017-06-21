@@ -21,7 +21,7 @@
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple/app/ledger/LocalTxs.h>
 #include <ripple/app/main/Application.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 
 /*
  This code prevents scenarios like the following:
