@@ -22,7 +22,7 @@
 #include <ripple/app/misc/ValidatorList.h>
 #include <ripple/app/misc/ValidatorSite.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <beast/core/detail/base64.hpp>
 #include <boost/regex.hpp>
 

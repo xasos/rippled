@@ -25,7 +25,7 @@
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/basics/UptimeTimer.h>
 #include <ripple/core/DatabaseCon.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/ledger/CachedSLEs.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple/nodestore/Database.h>

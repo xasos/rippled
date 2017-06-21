@@ -22,7 +22,7 @@
 
 #include <ripple/overlay/Message.h>
 #include <ripple/basics/base_uint.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/beast/net/IPEndpoint.h>
 

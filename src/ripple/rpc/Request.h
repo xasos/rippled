@@ -22,7 +22,7 @@
 
 #include <ripple/resource/Charge.h>
 #include <ripple/resource/Fees.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <beast/utility/Journal.h>
 
 namespace ripple {

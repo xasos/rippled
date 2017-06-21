@@ -20,7 +20,7 @@
 #ifndef RIPPLE_RPC_JSON_BODY_H
 #define RIPPLE_RPC_JSON_BODY_H
 
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <beast/core/streambuf.hpp>
 #include <beast/http/message.hpp>
 

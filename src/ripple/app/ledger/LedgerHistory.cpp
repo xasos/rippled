@@ -23,7 +23,7 @@
 #include <ripple/basics/Log.h>
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/contract.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 
 namespace ripple {
 

@@ -25,11 +25,11 @@
 #include <sstream>
 #include <string>
 
-#include <ripple/json/impl/json_reader.cpp>
-#include <ripple/json/impl/json_value.cpp>
-#include <ripple/json/impl/json_valueiterator.cpp>
-#include <ripple/json/impl/json_writer.cpp>
-#include <ripple/json/impl/to_string.cpp>
+#include <ripple-libpp/src/ripple/src/json/impl/json_reader.cpp>
+#include <ripple-libpp/src/ripple/src/json/impl/json_value.cpp>
+#include <ripple-libpp/src/ripple/src/json/impl/json_valueiterator.cpp>
+#include <ripple-libpp/src/ripple/src/json/impl/json_writer.cpp>
+#include <ripple-libpp/src/ripple/src/json/impl/to_string.cpp>
 
 #include <ripple/json/impl/JsonPropertyStream.cpp>
 #include <ripple/json/impl/Writer.cpp>

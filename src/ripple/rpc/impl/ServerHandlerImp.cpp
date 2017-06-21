@@ -22,7 +22,7 @@
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/beast/rfc2616.h>
 #include <ripple/beast/net/IPAddressConversion.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple/rpc/json_body.h>
 #include <ripple/rpc/ServerHandler.h>
 #include <ripple/server/Server.h>
@@ -32,7 +32,7 @@
 #include <ripple/basics/Log.h>
 #include <ripple/basics/make_SSLContext.h>
 #include <ripple/core/JobQueue.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple/overlay/Overlay.h>
 #include <ripple/resource/ResourceManager.h>

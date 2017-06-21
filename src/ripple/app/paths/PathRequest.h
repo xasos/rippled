@@ -23,7 +23,7 @@
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple/app/paths/Pathfinder.h>
 #include <ripple/app/paths/RippleLineCache.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/net/InfoSub.h>
 #include <ripple/protocol/types.h>
 #include <boost/optional.hpp>

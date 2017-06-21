@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/rpc/ServerHandler.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <test/jtx.h>
 #include <test/jtx/envconfig.h>
 #include <test/jtx/WSClient.h>

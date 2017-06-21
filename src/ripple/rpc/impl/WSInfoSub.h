@@ -24,7 +24,7 @@
 #include <ripple/net/InfoSub.h>
 #include <ripple/beast/net/IPAddressConversion.h>
 #include <ripple/json/Output.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/rpc/Role.h>
 #include <memory>
 #include <string>

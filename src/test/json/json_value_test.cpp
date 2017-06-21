@@ -18,8 +18,8 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/json/json_value.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple/beast/unit_test.h>
 #include <ripple/beast/type_name.h>
 

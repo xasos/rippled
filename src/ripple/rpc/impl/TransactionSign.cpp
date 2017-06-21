@@ -29,7 +29,7 @@
 #include <ripple/app/tx/apply.h>              // Validity::Valid
 #include <ripple/basics/Log.h>
 #include <ripple/basics/mulDiv.h>
-#include <ripple/json/json_writer.h>
+#include <ripple-libpp/src/ripple/src/json/json_writer.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple/protocol/Sign.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>

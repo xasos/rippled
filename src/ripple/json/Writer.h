@@ -23,7 +23,7 @@
 #include <ripple/basics/contract.h>
 #include <ripple/basics/ToString.h>
 #include <ripple/json/Output.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <memory>
 
 namespace Json {

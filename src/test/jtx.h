@@ -22,7 +22,7 @@
 
 // Convenience header that includes everything
 
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <test/jtx/Account.h>
 #include <test/jtx/amount.h>
 #include <test/jtx/balance.h>

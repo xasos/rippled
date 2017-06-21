@@ -35,8 +35,8 @@
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/Log.h>
 #include <ripple/core/Config.h>
-#include <ripple/json/json_value.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/ledger/CachedSLEs.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>

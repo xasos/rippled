@@ -31,7 +31,7 @@
 #include <ripple/basics/contract.h>
 #include <ripple/basics/Log.h>
 #include <ripple/basics/StringUtilities.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <boost/format.hpp>
 #include <array>
 #include <memory>

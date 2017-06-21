@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/json/json_writer.h>
+#include <ripple-libpp/src/ripple/src/json/json_writer.h>
 #include <ripple/app/main/Application.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/net/RPCErr.h>

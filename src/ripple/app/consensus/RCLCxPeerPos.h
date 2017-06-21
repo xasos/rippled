@@ -24,7 +24,7 @@
 #include <ripple/basics/base_uint.h>
 #include <ripple/beast/hash/hash_append.h>
 #include <ripple/consensus/ConsensusProposal.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>

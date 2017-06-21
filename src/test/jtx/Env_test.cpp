@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/basics/Log.h>
 #include <test/jtx.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/TxFlags.h>

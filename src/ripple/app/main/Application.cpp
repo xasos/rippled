@@ -45,7 +45,7 @@
 #include <ripple/app/tx/apply.h>
 #include <ripple/basics/ResolverAsio.h>
 #include <ripple/basics/Sustain.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple/core/DeadlineTimer.h>
 #include <ripple/nodestore/DummyScheduler.h>
 #include <ripple/overlay/Cluster.h>

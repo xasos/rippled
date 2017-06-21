@@ -20,7 +20,7 @@
 #include <test/jtx/envconfig.h>
 #include <ripple/app/tx/apply.h>
 #include <ripple/basics/StringUtilities.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 

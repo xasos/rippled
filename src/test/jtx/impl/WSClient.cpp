@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <test/jtx/WSClient.h>
 #include <test/jtx.h>
-#include <ripple/json/json_reader.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/server/Port.h>
 #include <beast/core/placeholders.hpp>

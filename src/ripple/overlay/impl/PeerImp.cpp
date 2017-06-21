@@ -38,7 +38,7 @@
 #include <ripple/basics/UptimeTimer.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/core/TimeKeeper.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/ServerHandler.h>
 #include <ripple/overlay/Cluster.h>

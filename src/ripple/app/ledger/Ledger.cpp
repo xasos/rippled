@@ -38,7 +38,7 @@
 #include <ripple/core/DatabaseCon.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/core/SociDB.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/nodestore/Database.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>

@@ -21,7 +21,7 @@
 #define RIPPLE_NET_INFOSUB_H_INCLUDED
 
 #include <ripple/basics/CountedObject.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/app/misc/Manifest.h>
 #include <ripple/resource/Consumer.h>
 #include <ripple-libpp/src/ripple/src/protocol/Book.h>

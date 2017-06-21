@@ -30,7 +30,7 @@
 #include <ripple/core/TerminateHandler.h>
 #include <ripple/core/TimeKeeper.h>
 #include <ripple/crypto/csprng.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/net/RPCCall.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/RPCHandler.h>

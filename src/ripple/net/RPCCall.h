@@ -21,7 +21,7 @@
 #define RIPPLE_NET_RPCCALL_H_INCLUDED
 
 #include <ripple/core/Config.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <boost/asio/io_service.hpp>
 #include <functional>
 #include <string>

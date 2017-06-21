@@ -20,7 +20,7 @@
 #define RIPPLE_CONSENSUS_ConsensusProposal_H_INCLUDED
 
 #include <ripple/basics/chrono.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/protocol/JsonFields.h>
 #include <cstdint>
 

@@ -21,7 +21,7 @@
 #define RIPPLE_APP_LEDGER_LEDGERCLEANER_H_INCLUDED
 
 #include <ripple/app/main/Application.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/core/Stoppable.h>
 #include <ripple/beast/utility/PropertyStream.h>
 #include <ripple/beast/utility/Journal.h>

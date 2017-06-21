@@ -45,7 +45,7 @@
 #include <ripple/core/JobCounter.h>
 #include <ripple/crypto/csprng.h>
 #include <ripple/crypto/RFC1751.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/overlay/Cluster.h>
 #include <ripple/overlay/Overlay.h>
 #include <ripple/overlay/predicates.h>

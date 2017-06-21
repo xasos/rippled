@@ -22,7 +22,7 @@
 #include <ripple/protocol/STTx.h>
 #include <ripple/protocol/STParsedJSON.h>
 #include <ripple/protocol/types.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/beast/unit_test.h>
 
 namespace ripple {

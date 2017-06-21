@@ -21,7 +21,7 @@
 #define RIPPLE_SERVER_ROLE_H_INCLUDED
 
 #include <ripple/server/Port.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/resource/ResourceManager.h>
 #include <ripple/beast/net/IPEndpoint.h>
 #include <vector>

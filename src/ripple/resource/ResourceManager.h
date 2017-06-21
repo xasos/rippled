@@ -20,7 +20,7 @@
 #ifndef RIPPLE_RESOURCE_MANAGER_H_INCLUDED
 #define RIPPLE_RESOURCE_MANAGER_H_INCLUDED
 
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/resource/Consumer.h>
 #include <ripple/resource/Gossip.h>
 #include <ripple/beast/insight/Collector.h>

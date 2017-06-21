@@ -21,8 +21,8 @@
 #include <ripple/app/paths/AccountCurrencies.h>
 #include <ripple/basics/contract.h>
 #include <ripple/core/JobQueue.h>
-#include <ripple/json/json_reader.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/STParsedJSON.h>
 #include <ripple/protocol/TxFlags.h>

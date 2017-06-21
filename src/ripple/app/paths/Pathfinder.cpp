@@ -26,7 +26,7 @@
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple/app/ledger/OrderBookDB.h>
 #include <ripple/basics/Log.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/core/Config.h>
 #include <tuple>

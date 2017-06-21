@@ -21,7 +21,7 @@
 #define RIPPLE_TEST_JTX_UTILITY_H_INCLUDED
 
 #include <test/jtx/Account.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple/protocol/STObject.h>
 #include <stdexcept>

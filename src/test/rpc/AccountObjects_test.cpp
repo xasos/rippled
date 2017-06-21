@@ -18,9 +18,9 @@
 //==============================================================================
 
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/json/json_value.h>
-#include <ripple/json/to_string.h>
-#include <ripple/json/json_reader.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <test/jtx.h>
 
 #include <boost/utility/string_ref.hpp>

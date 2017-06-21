@@ -27,7 +27,7 @@
 #include <ripple/core/JobTypeData.h>
 #include <ripple/core/Stoppable.h>
 #include <ripple/core/impl/Workers.h>
-#include <ripple/json/json_value.h>
+#include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <boost/coroutine/all.hpp>
 
 namespace ripple {

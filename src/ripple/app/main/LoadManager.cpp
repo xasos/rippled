@@ -23,7 +23,7 @@
 #include <ripple/app/misc/LoadFeeTrack.h>
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/basics/UptimeTimer.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/beast/core/CurrentThreadName.h>
 #include <memory>
 #include <mutex>

@@ -22,7 +22,7 @@
 #include <ripple/app/tx/impl/InvariantCheck.h>
 #include <ripple/app/tx/impl/Transactor.h>
 #include <ripple/basics/Log.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <cassert>

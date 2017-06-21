@@ -30,7 +30,7 @@
 #include <ripple/core/Config.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/json/Object.h>
-#include <ripple/json/to_string.h>
+#include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/net/InfoSub.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple/protocol/JsonFields.h>
