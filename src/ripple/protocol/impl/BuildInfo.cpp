@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/basics/contract.h>
 #include <ripple/beast/core/SemanticVersion.h>
-#include <ripple/protocol/BuildInfo.h>
+#include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
 
 namespace ripple {
 

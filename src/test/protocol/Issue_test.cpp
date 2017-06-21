@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/UnorderedContainers.h>
-#include <ripple/protocol/Book.h>
+#include <ripple-libpp/src/ripple/src/protocol/Book.h>
 #include <ripple/protocol/Issue.h>
 #include <ripple/beast/unit_test.h>
 #include <map>

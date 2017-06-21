@@ -19,9 +19,9 @@
 
 #include <BeastConfig.h>
 
-#include <ripple/protocol/impl/AccountID.cpp>
-#include <ripple/protocol/impl/Book.cpp>
-#include <ripple/protocol/impl/BuildInfo.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/AccountID.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/Book.cpp>
+#include <ripple-libpp/src/ripple/src/protocol/impl/BuildInfo.cpp>
 #include <ripple/protocol/impl/ByteOrder.cpp>
 #include <ripple/protocol/impl/digest.cpp>
 #include <ripple/protocol/impl/ErrorCodes.cpp>

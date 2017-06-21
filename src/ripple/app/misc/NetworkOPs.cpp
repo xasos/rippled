@@ -49,7 +49,7 @@
 #include <ripple/overlay/Cluster.h>
 #include <ripple/overlay/Overlay.h>
 #include <ripple/overlay/predicates.h>
-#include <ripple/protocol/BuildInfo.h>
+#include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
 #include <ripple/resource/ResourceManager.h>
 #include <ripple/beast/rfc2616.h>
 #include <ripple/beast/core/LexicalCast.h>

@@ -26,7 +26,7 @@
 #include <ripple/basics/Log.h>
 #include <ripple/ledger/Directory.h>
 #include <ripple/ledger/PaymentSandbox.h>
-#include <ripple/protocol/Book.h>
+#include <ripple-libpp/src/ripple/src/protocol/Book.h>
 #include <ripple/protocol/Feature.h>
 #include <ripple/protocol/IOUAmount.h>
 #include <ripple/protocol/Quality.h>

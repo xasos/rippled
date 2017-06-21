@@ -17,7 +17,7 @@
 */
 //==============================================================================
 
-#include <ripple/protocol/Book.h>
+#include <ripple-libpp/src/ripple/src/protocol/Book.h>
 
 namespace ripple {
 
