@@ -25,7 +25,7 @@
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/BasicConfig.h>
 #include <ripple/overlay/ClusterNode.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/beast/hash/uhash.h>
 #include <ripple/beast/utility/Journal.h>
 #include <functional>

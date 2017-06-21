@@ -21,8 +21,8 @@
 #define RIPPLE_APP_MAIN_NODEIDENTITY_H_INCLUDED
 
 #include <ripple/app/main/Application.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <utility>
 
 namespace ripple {

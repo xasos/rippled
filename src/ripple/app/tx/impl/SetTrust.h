@@ -23,7 +23,7 @@
 #include <ripple/protocol/Quality.h>
 #include <ripple/app/tx/impl/Transactor.h>
 #include <ripple/basics/Log.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/TxFlags.h>
 
 namespace ripple {

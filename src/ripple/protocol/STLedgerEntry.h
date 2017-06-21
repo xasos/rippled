@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PROTOCOL_STLEDGERENTRY_H_INCLUDED
 #define RIPPLE_PROTOCOL_STLEDGERENTRY_H_INCLUDED
 
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/STObject.h>
 
 namespace ripple {

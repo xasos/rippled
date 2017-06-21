@@ -26,7 +26,7 @@
 #include <ripple/overlay/impl/TMHello.h>
 #include <ripple/overlay/impl/Tuning.h>
 #include <ripple/overlay/Message.h>
-#include <ripple/protocol/BuildInfo.h>
+#include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
 #include <ripple/protocol/UintTypes.h>
 #include <ripple/beast/asio/ssl_bundle.h>
 #include <ripple/beast/net/IPAddressConversion.h>

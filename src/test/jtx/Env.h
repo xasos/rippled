@@ -38,9 +38,9 @@
 #include <ripple/json/json_value.h>
 #include <ripple/json/to_string.h>
 #include <ripple/ledger/CachedSLEs.h>
-#include <ripple/protocol/Feature.h>
-#include <ripple/protocol/Indexes.h>
-#include <ripple/protocol/Issue.h>
+#include <ripple-libpp/src/ripple/src/protocol/Feature.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Issue.h>
 #include <ripple/protocol/STAmount.h>
 #include <ripple/protocol/STObject.h>
 #include <ripple/protocol/STTx.h>

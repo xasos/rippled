@@ -25,7 +25,7 @@
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/core/TimeKeeper.h>
 #include <ripple/crypto/csprng.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <boost/iterator/counting_iterator.hpp>
 #include <boost/range/adaptors.hpp>
 #include <boost/thread/locks.hpp>

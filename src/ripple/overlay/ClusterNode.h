@@ -21,7 +21,7 @@
 #define RIPPLE_APP_PEERS_CLUSTERNODESTATUS_H_INCLUDED
 
 #include <ripple/basics/chrono.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <cstdint>
 #include <string>
 

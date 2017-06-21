@@ -25,10 +25,10 @@
 #include <ripple/ledger/CachedView.h>
 #include <ripple/basics/CountedObject.h>
 #include <ripple/core/TimeKeeper.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/STLedgerEntry.h>
 #include <ripple/protocol/Serializer.h>
-#include <ripple/protocol/Book.h>
+#include <ripple-libpp/src/ripple/src/protocol/Book.h>
 #include <ripple/shamap/SHAMap.h>
 #include <ripple/beast/utility/Journal.h>
 #include <boost/optional.hpp>

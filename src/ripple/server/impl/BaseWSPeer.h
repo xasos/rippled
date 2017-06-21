@@ -21,7 +21,7 @@
 #define RIPPLE_SERVER_BASEWSPEER_H_INCLUDED
 
 #include <ripple/server/impl/BasePeer.h>
-#include <ripple/protocol/BuildInfo.h>
+#include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
 #include <ripple/beast/utility/rngfill.h>
 #include <ripple/crypto/csprng.h>
 #include <beast/websocket.hpp>

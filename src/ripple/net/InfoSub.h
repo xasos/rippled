@@ -24,7 +24,7 @@
 #include <ripple/json/json_value.h>
 #include <ripple/app/misc/Manifest.h>
 #include <ripple/resource/Consumer.h>
-#include <ripple/protocol/Book.h>
+#include <ripple-libpp/src/ripple/src/protocol/Book.h>
 #include <ripple/core/Stoppable.h>
 #include <mutex>
 

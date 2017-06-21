@@ -21,8 +21,8 @@
 #define RIPPLE_APP_MISC_MANIFEST_H_INCLUDED
 
 #include <ripple/basics/UnorderedContainers.h>
-#include <ripple/protocol/PublicKey.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/beast/utility/Journal.h>
 #include <boost/optional.hpp>
 #include <string>

@@ -22,7 +22,7 @@
 
 #include <ripple/beast/core/SemanticVersion.h>
 #include <ripple/ledger/TxMeta.h>
-#include <ripple/protocol/SecretKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
 #include <ripple/rpc/impl/Tuning.h>
 #include <ripple/rpc/Status.h>
 #include <boost/optional.hpp>

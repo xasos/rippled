@@ -25,7 +25,7 @@
 #include <ripple/protocol/SField.h>
 #include <ripple/protocol/Serializer.h>
 #include <ripple/protocol/STBase.h>
-#include <ripple/protocol/Issue.h>
+#include <ripple-libpp/src/ripple/src/protocol/Issue.h>
 #include <ripple/protocol/IOUAmount.h>
 #include <ripple/protocol/XRPAmount.h>
 #include <memory>

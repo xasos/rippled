@@ -20,7 +20,7 @@
 #ifndef RIPPLE_APP_PATHS_NODEDIRECTORY_H_INCLUDED
 #define RIPPLE_APP_PATHS_NODEDIRECTORY_H_INCLUDED
 
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/STLedgerEntry.h>
 #include <ripple/ledger/ApplyView.h>
 

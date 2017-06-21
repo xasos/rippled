@@ -23,7 +23,7 @@
 #include <ripple/basics/Log.h>
 #include <ripple/beast/utility/Journal.h>
 #include <ripple/ledger/ReadView.h>
-#include <ripple/protocol/AccountID.h>
+#include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 #include <ripple/protocol/UintTypes.h>
 
 namespace ripple {

@@ -23,7 +23,7 @@
 #include <test/jtx/Account.h>
 #include <test/jtx/amount.h>
 #include <test/jtx/tags.h>
-#include <ripple/protocol/Issue.h>
+#include <ripple-libpp/src/ripple/src/protocol/Issue.h>
 #include <ripple/protocol/STAmount.h>
 #include <ripple/basics/contract.h>
 #include <cstdint>

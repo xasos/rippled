@@ -21,8 +21,8 @@
 #define RIPPLE_OVERLAY_TMHELLO_H_INCLUDED
 
 #include <ripple/app/main/Application.h>
-#include <ripple/protocol/BuildInfo.h>
-#include <ripple/protocol/PublicKey.h>
+#include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
+#include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/protocol/UintTypes.h>
 #include <beast/http/message.hpp>
 #include <ripple/beast/utility/Journal.h>

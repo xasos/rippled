@@ -21,7 +21,7 @@
 #define RIPPLE_APP_LEDGER_ACCEPTEDLEDGER_H_INCLUDED
 
 #include <ripple/app/ledger/AcceptedLedgerTx.h>
-#include <ripple/protocol/AccountID.h>
+#include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 
 namespace ripple {
 

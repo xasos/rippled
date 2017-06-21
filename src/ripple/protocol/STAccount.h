@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PROTOCOL_STACCOUNT_H_INCLUDED
 #define RIPPLE_PROTOCOL_STACCOUNT_H_INCLUDED
 
-#include <ripple/protocol/AccountID.h>
+#include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 #include <ripple/protocol/STBase.h>
 #include <string>
 

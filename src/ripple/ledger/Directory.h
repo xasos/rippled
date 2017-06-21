@@ -21,7 +21,7 @@
 #define RIPPLE_LEDGER_DIR_H_INCLUDED
 
 #include <ripple/ledger/ReadView.h>
-#include <ripple/protocol/Indexes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 
 namespace ripple {
 

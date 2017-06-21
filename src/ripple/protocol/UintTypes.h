@@ -22,7 +22,7 @@
 
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/basics/base_uint.h>
-#include <ripple/protocol/AccountID.h>
+#include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 
 namespace ripple {
 namespace detail {
