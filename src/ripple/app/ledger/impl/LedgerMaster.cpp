@@ -42,7 +42,7 @@
 #include <ripple/core/TimeKeeper.h>
 #include <ripple/overlay/Overlay.h>
 #include <ripple/overlay/Peer.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/HashPrefix.h>
 #include <ripple/resource/Fees.h>
 #include <algorithm>

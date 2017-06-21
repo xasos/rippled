@@ -24,7 +24,7 @@
 #include <ripple/core/SociDB.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/Context.h>
 #include <ripple/rpc/Role.h>

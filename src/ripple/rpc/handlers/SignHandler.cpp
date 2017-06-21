@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/ledger/LedgerMaster.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/Context.h>
 #include <ripple/rpc/impl/TransactionSign.h>

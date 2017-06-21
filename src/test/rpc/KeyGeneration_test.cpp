@@ -22,7 +22,7 @@
 #include <test/jtx/TestSuite.h>
 #include <ripple/json/json_value.h>
 #include <ripple/json/json_writer.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/rpc/handlers/WalletPropose.h>
 #include <ripple/rpc/impl/RPCHelpers.h>

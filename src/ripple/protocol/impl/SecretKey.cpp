@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/basics/strHex.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/impl/secp256k1.h>
 #include <ripple/basics/contract.h>
 #include <ripple/crypto/GenerateDeterministicKey.h>

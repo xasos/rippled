@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <test/jtx/utility.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/HashPrefix.h>
 #include <ripple/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>

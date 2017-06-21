@@ -22,7 +22,7 @@
 
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/Log.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/st.h>
 #include <ripple/protocol/Feature.h>
 #include <ripple/protocol/Indexes.h>

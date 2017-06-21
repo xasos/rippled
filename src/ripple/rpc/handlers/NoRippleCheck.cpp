@@ -23,7 +23,7 @@
 #include <ripple/app/paths/RippleState.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/net/RPCErr.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/rpc/Context.h>

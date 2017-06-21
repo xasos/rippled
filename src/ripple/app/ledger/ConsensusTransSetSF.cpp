@@ -24,7 +24,7 @@
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/app/misc/Transaction.h>
 #include <ripple/basics/Log.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/nodestore/Database.h>
 #include <ripple/protocol/HashPrefix.h>

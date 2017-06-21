@@ -23,7 +23,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/basics/contract.h>
 #include <ripple/crypto/RFC1751.h>
 #include <ripple/crypto/csprng.h>

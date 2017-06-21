@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/basics/contract.h>
 #include <ripple/basics/StringUtilities.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/LedgerFormats.h>
 #include <ripple/protocol/STAccount.h>
 #include <ripple/protocol/STAmount.h>

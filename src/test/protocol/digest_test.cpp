@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/beast/utility/rngfill.h>
 #include <ripple/beast/xor_shift_engine.h>
 #include <ripple/beast/unit_test.h>

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/Log.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/app/main/Application.h>
 #include <ripple/basics/CheckLibraryVersions.h>
 #include <ripple/basics/contract.h>

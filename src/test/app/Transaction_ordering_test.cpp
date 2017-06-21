@@ -17,7 +17,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/core/JobQueue.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <test/jtx.h>
 
 namespace ripple {

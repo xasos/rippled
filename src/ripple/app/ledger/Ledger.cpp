@@ -40,7 +40,7 @@
 #include <ripple/core/SociDB.h>
 #include <ripple/json/to_string.h>
 #include <ripple/nodestore/Database.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>

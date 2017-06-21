@@ -22,7 +22,7 @@
 #include <ripple/basics/strHex.h>
 #include <ripple/app/misc/ValidatorList.h>
 #include <test/jtx.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/HashPrefix.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>

@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/json/json_value.h>
 #include <ripple/net/RPCErr.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/Seed.h>
 #include <ripple/rpc/Context.h>

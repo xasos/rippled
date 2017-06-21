@@ -22,7 +22,7 @@
 #include <ripple/app/paths/RippleState.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/resource/Fees.h>

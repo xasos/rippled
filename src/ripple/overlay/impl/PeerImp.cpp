@@ -32,7 +32,7 @@
 #include <ripple/app/misc/Validations.h>
 #include <ripple/app/misc/ValidatorList.h>
 #include <ripple/app/tx/apply.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/basics/random.h>
 #include <ripple/basics/StringUtilities.h>
 #include <ripple/basics/UptimeTimer.h>

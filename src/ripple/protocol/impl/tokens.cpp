@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/protocol/tokens.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <cassert>
 #include <cstring>
 #include <memory>

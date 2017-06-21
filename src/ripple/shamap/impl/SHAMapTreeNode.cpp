@@ -21,7 +21,7 @@
 #include <ripple/shamap/SHAMapTreeNode.h>
 #include <ripple/basics/contract.h>
 #include <ripple/basics/Log.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/basics/Slice.h>
 #include <ripple/basics/StringUtilities.h>
 #include <ripple/protocol/HashPrefix.h>

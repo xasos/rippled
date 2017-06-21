@@ -25,7 +25,7 @@
 #include <ripple/conditions/Condition.h>
 #include <ripple/conditions/Fulfillment.h>
 #include <ripple/conditions/impl/error.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <memory>
 
 namespace ripple {

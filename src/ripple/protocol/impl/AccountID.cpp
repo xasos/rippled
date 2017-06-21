@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/tokens.h>
 #include <cstring>
 

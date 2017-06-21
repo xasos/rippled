@@ -22,7 +22,7 @@
 #include <ripple/app/main/Application.h>
 #include <ripple/app/misc/TxQ.h>
 #include <ripple/rpc/Context.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/Feature.h>
 
 namespace ripple

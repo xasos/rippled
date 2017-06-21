@@ -22,7 +22,7 @@
 #include <ripple/crypto/GenerateDeterministicKey.h>
 #include <ripple/crypto/impl/ec_key.h>
 #include <ripple/crypto/impl/openssl.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <array>
 #include <string>
 #include <openssl/pem.h>

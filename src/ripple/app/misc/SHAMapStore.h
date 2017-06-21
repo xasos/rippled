@@ -22,7 +22,7 @@
 
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple/nodestore/Manager.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/core/Stoppable.h>
 
 namespace ripple {

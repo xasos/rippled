@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/net/RPCErr.h>
-#include <ripple/protocol/ErrorCodes.h>
+#include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 
 namespace ripple {
 

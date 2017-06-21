@@ -27,7 +27,7 @@
 #include <ripple/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/digest.h>
+#include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/beast/unit_test.h>
 
