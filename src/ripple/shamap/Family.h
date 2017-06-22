@@ -20,7 +20,7 @@
 #ifndef RIPPLE_SHAMAP_FAMILY_H_INCLUDED
 #define RIPPLE_SHAMAP_FAMILY_H_INCLUDED
 
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/shamap/FullBelowCache.h>
 #include <ripple/shamap/TreeNodeCache.h>
 #include <ripple/nodestore/Database.h>

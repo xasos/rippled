@@ -22,7 +22,7 @@
 
 #include <ripple/app/paths/RippleCalc.h>
 #include <ripple/app/tx/impl/Transactor.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/protocol/TxFlags.h>
 
 namespace ripple {

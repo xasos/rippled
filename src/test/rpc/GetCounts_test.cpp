@@ -21,7 +21,7 @@
 #include <ripple/beast/unit_test.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/SField.h>
-#include <ripple/basics/CountedObject.h>
+#include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 
 namespace ripple {
 

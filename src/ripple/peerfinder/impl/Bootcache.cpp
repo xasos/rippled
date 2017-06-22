@@ -21,7 +21,7 @@
 #include <ripple/peerfinder/impl/Bootcache.h>
 #include <ripple/peerfinder/impl/iosformat.h>
 #include <ripple/peerfinder/impl/Tuning.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 
 namespace ripple {
 namespace PeerFinder {

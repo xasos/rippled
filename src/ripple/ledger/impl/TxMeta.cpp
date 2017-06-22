@@ -18,9 +18,9 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/ledger/TxMeta.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/protocol/STAccount.h>
 #include <string>

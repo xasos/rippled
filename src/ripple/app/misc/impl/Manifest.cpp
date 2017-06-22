@@ -18,9 +18,9 @@
 //==============================================================================
 
 #include <ripple/app/misc/Manifest.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/beast/rfc2616.h>
 #include <ripple/core/DatabaseCon.h>
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>

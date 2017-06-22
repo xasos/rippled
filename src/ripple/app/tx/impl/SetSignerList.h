@@ -27,7 +27,7 @@
 #include <ripple/protocol/STArray.h>
 #include <ripple/protocol/STTx.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <algorithm>
 #include <cstdint>
 #include <vector>

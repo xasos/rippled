@@ -23,8 +23,8 @@
 #include <ripple/app/tx/apply.h>
 #include <ripple/app/tx/impl/Transactor.h>
 #include <ripple/app/tx/impl/SignerEntries.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/ledger/View.h>

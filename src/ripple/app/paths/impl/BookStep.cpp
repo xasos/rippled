@@ -22,8 +22,8 @@
 #include <ripple/app/paths/Credit.h>
 #include <ripple/app/paths/NodeDirectory.h>
 #include <ripple/app/tx/impl/OfferStream.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/ledger/Directory.h>
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple-libpp/src/ripple/src/protocol/Book.h>

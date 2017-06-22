@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <ripple/core/DatabaseCon.h>
 #include <ripple/core/SociDB.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <memory>
 
 namespace ripple {

@@ -21,9 +21,9 @@
 #include <ripple/basics/chrono.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/ledger/View.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/st.h>
 #include <ripple/protocol/Quality.h>
 #include <boost/algorithm/string.hpp>

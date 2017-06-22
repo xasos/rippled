@@ -21,9 +21,9 @@
 #include <ripple/shamap/SHAMap.h>
 #include <test/shamap/common.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/basics/random.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/beast/xor_shift_engine.h>
 #include <ripple/beast/unit_test.h>

@@ -23,7 +23,7 @@
 #include <ripple/app/tx/impl/BookTip.h>
 #include <ripple/app/tx/impl/Offer.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/ledger/View.h>
 #include <ripple/protocol/Quality.h>
 #include <ripple/beast/utility/Journal.h>

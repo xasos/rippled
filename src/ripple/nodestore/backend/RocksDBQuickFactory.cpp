@@ -23,7 +23,7 @@
 
 #if RIPPLE_ROCKSDB_AVAILABLE
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/core/Config.h> // VFALCO Bad dependency
 #include <ripple/nodestore/Factory.h>
 #include <ripple/nodestore/Manager.h>

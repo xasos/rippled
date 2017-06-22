@@ -23,7 +23,7 @@
 #include <ripple/ledger/TxMeta.h>
 #include <ripple/ledger/View.h>
 #include <ripple/ledger/CachedView.h>
-#include <ripple/basics/CountedObject.h>
+#include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <ripple/core/TimeKeeper.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/STLedgerEntry.h>

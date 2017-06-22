@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/app/misc/Transaction.h>
 #include <ripple/app/tx/apply.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/DatabaseCon.h>
 #include <ripple/app/ledger/LedgerMaster.h>
 #include <ripple/app/main/Application.h>

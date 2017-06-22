@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/paths/AccountCurrencies.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>

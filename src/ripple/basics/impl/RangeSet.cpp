@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/RangeSet.h>
 #include <ripple/beast/core/LexicalCast.h>
 #include <boost/foreach.hpp>

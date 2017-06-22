@@ -17,7 +17,7 @@
 */
 //==============================================================================
 
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
 #include <test/jtx.h>

@@ -22,7 +22,7 @@
 #include <ripple/app/misc/Transaction.h>
 #include <ripple/app/main/Application.h>
 #include <ripple/protocol/STTx.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/chrono.h>
 
 namespace ripple {

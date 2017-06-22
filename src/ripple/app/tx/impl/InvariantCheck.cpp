@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <ripple/app/tx/impl/InvariantCheck.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 
 namespace ripple {
 

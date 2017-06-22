@@ -20,7 +20,7 @@
 #ifndef RIPPLE_JSON_WRITER_H_INCLUDED
 #define RIPPLE_JSON_WRITER_H_INCLUDED
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/basics/ToString.h>
 #include <ripple/json/Output.h>
 #include <ripple-libpp/src/ripple/src/json/json_value.h>

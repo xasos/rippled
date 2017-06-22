@@ -23,7 +23,7 @@
 #include <ripple/app/paths/impl/AmountSpec.h>
 #include <ripple/app/paths/impl/StrandFlow.h>
 #include <ripple/app/paths/impl/Steps.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/protocol/IOUAmount.h>
 #include <ripple/protocol/XRPAmount.h>
 

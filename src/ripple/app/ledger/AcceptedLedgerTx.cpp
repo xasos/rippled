@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <ripple/app/main/Application.h>
 #include <ripple/app/ledger/AcceptedLedgerTx.h>
-#include <ripple/basics/Log.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/protocol/types.h>
 

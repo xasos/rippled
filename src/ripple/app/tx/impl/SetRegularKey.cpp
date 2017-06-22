@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/SetRegularKey.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/types.h>
 

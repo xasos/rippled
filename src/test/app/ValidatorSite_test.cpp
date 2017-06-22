@@ -22,7 +22,7 @@
 #include <beast/http.hpp>
 #include <ripple/app/misc/ValidatorSite.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/basics/strHex.h>
+#include <ripple-libpp/src/ripple/src/basics/strHex.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/core/ConfigSections.h>
 #include <ripple/core/SociDB.h>
 #include <ripple/core/Config.h>

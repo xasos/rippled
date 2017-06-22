@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/app/tx/apply.h>
 #include <ripple/app/tx/applySteps.h>
 #include <ripple/app/misc/HashRouter.h>

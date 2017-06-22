@@ -20,7 +20,7 @@
 #ifndef RIPPLE_NODESTORE_CODEC_H_INCLUDED
 #define RIPPLE_NODESTORE_CODEC_H_INCLUDED
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <nudb/detail/field.hpp>
 #include <ripple/nodestore/impl/varint.h>
 #include <ripple/nodestore/NodeObject.h>

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/paths/impl/Steps.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple-libpp/src/ripple/src/json/json_writer.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>

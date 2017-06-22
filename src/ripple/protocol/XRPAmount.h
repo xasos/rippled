@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PROTOCOL_XRPAMOUNT_H_INCLUDED
 #define RIPPLE_PROTOCOL_XRPAMOUNT_H_INCLUDED
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/protocol/SystemParameters.h>
 #include <ripple/beast/utility/Zero.h>
 #include <boost/operators.hpp>

@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/Payment.h>
 #include <ripple/app/paths/RippleCalc.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple/protocol/st.h>
 #include <ripple/protocol/TxFlags.h>

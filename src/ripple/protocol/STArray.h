@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PROTOCOL_STARRAY_H_INCLUDED
 #define RIPPLE_PROTOCOL_STARRAY_H_INCLUDED
 
-#include <ripple/basics/CountedObject.h>
+#include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <ripple/protocol/STObject.h>
 
 namespace ripple {

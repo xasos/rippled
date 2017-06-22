@@ -22,7 +22,7 @@
 
 #include <ripple/basics/base_uint.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/CountedObject.h>
+#include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/beast/container/aged_unordered_map.h>
 #include <boost/optional.hpp>

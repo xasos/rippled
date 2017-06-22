@@ -21,7 +21,7 @@
 #include <ripple/app/misc/LoadFeeTrack.h>
 #include <ripple/app/misc/TxQ.h>
 #include <ripple/app/tx/apply.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/mulDiv.h>
 #include <test/jtx/TestSuite.h>
 #include <test/jtx/envconfig.h>

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/paths/cursor/EffectiveRate.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 
 namespace ripple {
 namespace path {

@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/protocol/STAccount.h>
 #include <ripple/protocol/STAmount.h>
 #include <ripple/protocol/STArray.h>

@@ -20,7 +20,7 @@
 #ifndef RIPPLE_APP_CONSENSUS_RCLCXPEERPOS_H_INCLUDED
 #define RIPPLE_APP_CONSENSUS_RCLCXPEERPOS_H_INCLUDED
 
-#include <ripple/basics/CountedObject.h>
+#include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <ripple/basics/base_uint.h>
 #include <ripple/beast/hash/hash_append.h>
 #include <ripple/consensus/ConsensusProposal.h>

@@ -21,7 +21,7 @@
 #include <ripple/shamap/SHAMap.h>
 #include <test/shamap/common.h>
 #include <ripple/basics/Blob.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/beast/unit_test.h>
 #include <ripple/beast/utility/Journal.h>
 

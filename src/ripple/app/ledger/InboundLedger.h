@@ -23,7 +23,7 @@
 #include <ripple/app/main/Application.h>
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple/overlay/PeerSet.h>
-#include <ripple/basics/CountedObject.h>
+#include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <mutex>
 #include <set>
 #include <utility>

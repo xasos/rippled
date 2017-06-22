@@ -21,7 +21,7 @@
 
 #include <ripple/core/ConfigSections.h>
 #include <ripple/core/SociDB.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <test/jtx/TestSuite.h>
 #include <ripple/basics/BasicConfig.h>
 #include <boost/filesystem.hpp>

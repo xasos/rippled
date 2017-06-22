@@ -21,7 +21,7 @@
 #include <test/jtx/jtx_json.h>
 #include <test/jtx/utility.h>
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 
 namespace ripple {
 namespace test {

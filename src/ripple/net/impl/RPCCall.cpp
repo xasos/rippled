@@ -21,8 +21,8 @@
 #include <ripple/app/main/Application.h>
 #include <ripple/net/RPCCall.h>
 #include <ripple/net/RPCErr.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>

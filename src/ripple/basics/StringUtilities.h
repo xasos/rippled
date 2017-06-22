@@ -22,7 +22,7 @@
 
 #include <ripple/basics/ByteOrder.h>
 #include <ripple/basics/Blob.h>
-#include <ripple/basics/strHex.h>
+#include <ripple-libpp/src/ripple/src/basics/strHex.h>
 #include <boost/format.hpp>
 #include <sstream>
 #include <string>

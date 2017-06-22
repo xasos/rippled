@@ -21,7 +21,7 @@
 #include <ripple/resource/ResourceManager.h>
 #include <ripple/resource/impl/Logic.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/beast/core/CurrentThreadName.h>
 #include <condition_variable>
 #include <memory>

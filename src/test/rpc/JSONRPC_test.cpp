@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/app/misc/LoadFeeTrack.h>
 #include <ripple/app/misc/TxQ.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>

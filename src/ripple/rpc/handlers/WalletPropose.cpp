@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/strHex.h>
+#include <ripple-libpp/src/ripple/src/basics/strHex.h>
 #include <ripple/crypto/KeyType.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>

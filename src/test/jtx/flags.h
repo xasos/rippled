@@ -23,7 +23,7 @@
 #include <test/jtx/Env.h>
 #include <ripple/protocol/LedgerFormats.h>
 #include <ripple/protocol/TxFlags.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 
 namespace ripple {
 namespace test {

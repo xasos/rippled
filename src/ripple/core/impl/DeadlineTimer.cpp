@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/core/DeadlineTimer.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/beast/core/CurrentThreadName.h>
 #include <cassert>
 #include <condition_variable>

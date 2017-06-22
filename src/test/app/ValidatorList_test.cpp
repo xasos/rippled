@@ -19,7 +19,7 @@
 
 #include <beast/core/detail/base64.hpp>
 #include <ripple/basics/Slice.h>
-#include <ripple/basics/strHex.h>
+#include <ripple-libpp/src/ripple/src/basics/strHex.h>
 #include <ripple/app/misc/ValidatorList.h>
 #include <test/jtx.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>

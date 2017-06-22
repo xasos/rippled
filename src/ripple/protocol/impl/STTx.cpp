@@ -28,9 +28,9 @@
 #include <ripple/protocol/STArray.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/types.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <boost/format.hpp>
 #include <array>

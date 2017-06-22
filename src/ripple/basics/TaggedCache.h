@@ -21,7 +21,7 @@
 #define RIPPLE_BASICS_TAGGEDCACHE_H_INCLUDED
 
 #include <ripple/basics/hardened_hash.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/beast/clock/abstract_clock.h>
 #include <ripple/beast/insight/Insight.h>

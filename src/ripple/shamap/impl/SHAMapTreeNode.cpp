@@ -19,11 +19,11 @@
 
 #include <BeastConfig.h>
 #include <ripple/shamap/SHAMapTreeNode.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/beast/core/LexicalCast.h>
 #include <mutex>

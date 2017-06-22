@@ -23,7 +23,7 @@
 #include <ripple/app/main/Application.h>
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/basics/DecayingSample.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple/beast/core/LexicalCast.h>

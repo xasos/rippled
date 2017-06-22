@@ -21,7 +21,7 @@
 #define RIPPLE_PROTOCOL_STEXCHANGE_H_INCLUDED
 
 #include <ripple/basics/Buffer.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/basics/Slice.h>
 #include <ripple/protocol/SField.h>
 #include <ripple/protocol/STBlob.h>

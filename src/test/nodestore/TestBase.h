@@ -22,7 +22,7 @@
 
 #include <ripple/nodestore/Database.h>
 #include <ripple/basics/random.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/beast/unit_test.h>
 #include <ripple/beast/utility/rngfill.h>
 #include <ripple/beast/xor_shift_engine.h>

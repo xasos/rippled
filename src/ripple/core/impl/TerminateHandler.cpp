@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/core/TerminateHandler.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/beast/core/CurrentThreadName.h>
 
 #include <boost/coroutine/exceptions.hpp>

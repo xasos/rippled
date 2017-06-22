@@ -21,7 +21,7 @@
 #define RIPPLE_TX_SETACCOUNT_H_INCLUDED
 
 #include <ripple/app/tx/impl/Transactor.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/Quality.h>

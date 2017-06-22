@@ -24,7 +24,7 @@
 #include <ripple/resource/Gossip.h>
 #include <ripple/resource/impl/Import.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/protocol/JsonFields.h>

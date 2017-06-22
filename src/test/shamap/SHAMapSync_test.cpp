@@ -22,7 +22,7 @@
 #include <ripple/shamap/SHAMapItem.h>
 #include <test/shamap/common.h>
 #include <ripple/basics/random.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/beast/unit_test.h>
 
 namespace ripple {

@@ -19,7 +19,7 @@
 #include <test/jtx.h>
 #include <ripple/app/paths/Flow.h>
 #include <ripple/app/paths/impl/Steps.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/core/Config.h>
 #include <ripple/ledger/ApplyViewImpl.h>
 #include <ripple/ledger/PaymentSandbox.h>

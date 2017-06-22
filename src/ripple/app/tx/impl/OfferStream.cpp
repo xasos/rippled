@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/OfferStream.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 
 namespace ripple {
 

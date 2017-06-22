@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PEERFINDER_STORESQDB_H_INCLUDED
 #define RIPPLE_PEERFINDER_STORESQDB_H_INCLUDED
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/core/SociDB.h>
 #include <ripple/beast/utility/Debug.h>
 #include <boost/optional.hpp>

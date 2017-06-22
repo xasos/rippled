@@ -21,8 +21,8 @@
 #define RIPPLE_SERVER_DOOR_H_INCLUDED
 
 #include <ripple/server/impl/io_list.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/server/impl/PlainHTTPPeer.h>
 #include <ripple/server/impl/SSLHTTPPeer.h>
 #include <ripple/beast/asio/ssl_bundle.h>

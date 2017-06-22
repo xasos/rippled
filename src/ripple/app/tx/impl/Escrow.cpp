@@ -21,7 +21,7 @@
 #include <ripple/app/tx/impl/Escrow.h>
 #include <ripple/app/misc/HashRouter.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/conditions/Condition.h>
 #include <ripple/conditions/Fulfillment.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>

@@ -21,7 +21,7 @@
 #include <ripple/app/tx/impl/PayChan.h>
 
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/protocol/st.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>

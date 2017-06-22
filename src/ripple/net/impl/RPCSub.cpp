@@ -19,9 +19,9 @@
 
 #include <BeastConfig.h>
 #include <ripple/net/RPCSub.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/net/RPCCall.h>
 #include <deque>

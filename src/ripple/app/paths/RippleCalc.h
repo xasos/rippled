@@ -22,7 +22,7 @@
 
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple/app/paths/PathState.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/protocol/STAmount.h>
 #include <ripple/protocol/TER.h>
 

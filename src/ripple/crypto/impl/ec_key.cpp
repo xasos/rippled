@@ -23,7 +23,7 @@
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 #include <BeastConfig.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/crypto/impl/ec_key.h>
 #include <openssl/ec.h>
 

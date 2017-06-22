@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/SetAccount.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>

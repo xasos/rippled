@@ -27,7 +27,7 @@
 #include <ripple/app/misc/TxQ.h>
 #include <ripple/app/paths/Pathfinder.h>
 #include <ripple/app/tx/apply.h>              // Validity::Valid
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/mulDiv.h>
 #include <ripple-libpp/src/ripple/src/json/json_writer.h>
 #include <ripple/net/RPCErr.h>

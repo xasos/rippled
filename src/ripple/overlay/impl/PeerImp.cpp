@@ -34,7 +34,7 @@
 #include <ripple/app/tx/apply.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 #include <ripple/basics/random.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/basics/UptimeTimer.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple/core/TimeKeeper.h>

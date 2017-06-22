@@ -21,7 +21,7 @@
 #define RIPPLE_APP_MISC_VALIDATORLIST_H_INCLUDED
 
 #include <ripple/app/misc/Manifest.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/core/TimeKeeper.h>
 #include <ripple/crypto/csprng.h>

@@ -22,7 +22,7 @@
 
 #include <ripple/protocol/SField.h>
 #include <ripple/basics/base_uint.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/basics/Buffer.h>
 #include <ripple/basics/Slice.h>
 #include <cassert>

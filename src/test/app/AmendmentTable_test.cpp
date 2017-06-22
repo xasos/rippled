@@ -22,7 +22,7 @@
 #include <ripple/app/misc/AmendmentTable.h>
 #include <ripple/basics/BasicConfig.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/ConfigSections.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>

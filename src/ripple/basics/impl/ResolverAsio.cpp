@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/ResolverAsio.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/beast/net/IPAddressConversion.h>
 #include <beast/core/placeholders.hpp>
 #include <ripple/beast/core/WaitableEvent.h>

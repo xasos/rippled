@@ -20,7 +20,7 @@
 #ifndef RIPPLE_BASICS_QALLOC_H_INCLUDED
 #define RIPPLE_BASICS_QALLOC_H_INCLUDED
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <boost/intrusive/list.hpp>
 #include <cstddef>
 #include <cstdint>

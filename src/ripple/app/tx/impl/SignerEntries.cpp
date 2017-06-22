@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/SignerEntries.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/protocol/STObject.h>
 #include <ripple/protocol/STArray.h>
 #include <cstdint>

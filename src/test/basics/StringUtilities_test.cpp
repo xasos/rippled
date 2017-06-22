@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/basics/ToString.h>
 #include <ripple/beast/unit_test.h>
 

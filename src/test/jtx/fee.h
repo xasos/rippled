@@ -23,7 +23,7 @@
 #include <test/jtx/Env.h>
 #include <test/jtx/tags.h>
 #include <ripple/protocol/STAmount.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <boost/optional.hpp>
 
 namespace ripple {

@@ -25,7 +25,7 @@
 #include <test/jtx/tags.h>
 #include <ripple-libpp/src/ripple/src/protocol/Issue.h>
 #include <ripple/protocol/STAmount.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <cstdint>
 #include <ostream>
 #include <string>

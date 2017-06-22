@@ -21,7 +21,7 @@
 #include <ripple/app/ledger/OrderBookDB.h>
 #include <ripple/app/ledger/LedgerMaster.h>
 #include <ripple/app/main/Application.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>

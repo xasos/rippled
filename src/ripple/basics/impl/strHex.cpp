@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/basics/strHex.h>
+#include <ripple-libpp/src/ripple/src/basics/strHex.h>
 #include <algorithm>
 
 namespace ripple {

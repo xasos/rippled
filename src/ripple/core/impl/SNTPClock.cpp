@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/core/impl/SNTPClock.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/random.h>
 #include <ripple/beast/core/CurrentThreadName.h>
 #include <beast/core/placeholders.hpp>

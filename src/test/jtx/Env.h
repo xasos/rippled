@@ -33,7 +33,7 @@
 #include <ripple/app/ledger/OpenLedger.h>
 #include <ripple/app/paths/Pathfinder.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>

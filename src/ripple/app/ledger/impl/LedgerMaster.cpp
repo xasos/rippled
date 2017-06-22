@@ -35,8 +35,8 @@
 #include <ripple/app/misc/Validations.h>
 #include <ripple/app/misc/ValidatorList.h>
 #include <ripple/app/paths/PathRequests.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/TaggedCache.h>
 #include <ripple/basics/UptimeTimer.h>
 #include <ripple/core/TimeKeeper.h>

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/rpc/Status.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/beast/unit_test.h>
 #include <algorithm>
 

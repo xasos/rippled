@@ -22,8 +22,8 @@
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/app/misc/ValidatorList.h>
 #include <ripple/core/DatabaseCon.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/make_SSLContext.h>
 #include <ripple/beast/rfc2616.h>
 #include <ripple/protocol/JsonFields.h>

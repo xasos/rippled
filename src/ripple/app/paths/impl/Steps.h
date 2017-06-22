@@ -21,7 +21,7 @@
 #define RIPPLE_APP_PATHS_IMPL_PAYSTEPS_H_INCLUDED
 
 #include <ripple/app/paths/impl/AmountSpec.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/protocol/Quality.h>
 #include <ripple/protocol/STLedgerEntry.h>
 #include <ripple/protocol/TER.h>

@@ -19,8 +19,8 @@
 
 #include <ripple/app/misc/Manifest.h>
 #include <ripple/app/misc/ValidatorList.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <test/jtx.h>
 #include <ripple/core/DatabaseCon.h>
 #include <ripple/app/main/DBInit.h>

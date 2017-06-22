@@ -28,7 +28,7 @@
     This module requires the @ref beast_sqlite external module.
 */
 
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/JobQueue.h>
 #define SOCI_USE_BOOST
 #include <soci/soci.h>

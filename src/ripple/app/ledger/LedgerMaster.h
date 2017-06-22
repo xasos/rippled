@@ -30,7 +30,7 @@
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/RangeSet.h>
 #include <ripple/basics/ScopedLock.h>
-#include <ripple/basics/StringUtilities.h>
+#include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/RippleLedgerHash.h>
 #include <ripple/protocol/STValidation.h>
 #include <ripple/beast/insight/Collector.h>

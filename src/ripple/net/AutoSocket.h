@@ -20,7 +20,7 @@
 #ifndef RIPPLE_WEBSOCKET_AUTOSOCKET_AUTOSOCKET_H_INCLUDED
 #define RIPPLE_WEBSOCKET_AUTOSOCKET_AUTOSOCKET_H_INCLUDED
 
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/beast/net/IPAddressConversion.h>
 #include <beast/core/bind_handler.hpp>
 #include <beast/core/placeholders.hpp>

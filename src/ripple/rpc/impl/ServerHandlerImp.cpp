@@ -28,8 +28,8 @@
 #include <ripple/server/Server.h>
 #include <ripple/server/impl/JSONRPCUtil.h>
 #include <ripple/rpc/impl/ServerHandlerImp.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/make_SSLContext.h>
 #include <ripple/core/JobQueue.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>

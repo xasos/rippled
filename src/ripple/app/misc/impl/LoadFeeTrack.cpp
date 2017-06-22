@@ -19,8 +19,8 @@
 
 #include <BeastConfig.h>
 #include <ripple/app/misc/LoadFeeTrack.h>
-#include <ripple/basics/contract.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/protocol/STAmount.h>

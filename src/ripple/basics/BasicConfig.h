@@ -20,7 +20,7 @@
 #ifndef RIPPLE_BASICS_BASICCONFIG_H_INCLUDED
 #define RIPPLE_BASICS_BASICCONFIG_H_INCLUDED
 
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <beast/unit_test/detail/const_container.hpp>
 #include <beast/core/detail/ci_char_traits.hpp>
 #include <boost/lexical_cast.hpp>

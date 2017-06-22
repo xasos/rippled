@@ -21,7 +21,7 @@
 #define RIPPLE_OVERLAY_PEERIMP_H_INCLUDED
 
 #include <ripple/app/consensus/RCLCxPeerPos.h>
-#include <ripple/basics/Log.h> // deprecated
+#include <ripple-libpp/src/ripple/src/basics/Log.h> // deprecated
 #include <ripple/nodestore/Database.h>
 #include <ripple/overlay/predicates.h>
 #include <ripple/overlay/impl/ProtocolMessage.h>

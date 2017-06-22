@@ -21,7 +21,7 @@
 #define RIPPLE_APP_PEERS_PEERSET_H_INCLUDED
 
 #include <ripple/app/main/Application.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Job.h>
 #include <ripple/overlay/Peer.h>
 #include <ripple/beast/clock/abstract_clock.h>

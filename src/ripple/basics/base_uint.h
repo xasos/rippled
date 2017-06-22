@@ -27,7 +27,7 @@
 
 #include <ripple/basics/ByteOrder.h>
 #include <ripple/basics/Blob.h>
-#include <ripple/basics/strHex.h>
+#include <ripple-libpp/src/ripple/src/basics/strHex.h>
 #include <ripple/basics/hardened_hash.h>
 #include <ripple/beast/utility/Zero.h>
 #include <boost/functional/hash.hpp>

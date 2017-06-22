@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/protocol/InnerObjectFormats.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>          // RPC::containsError
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>             // Json::Reader

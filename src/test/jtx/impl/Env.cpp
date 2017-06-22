@@ -33,7 +33,7 @@
 #include <ripple/consensus/LedgerTiming.h>
 #include <ripple/app/misc/NetworkOPs.h>
 #include <ripple/app/misc/TxQ.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/basics/Slice.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/net/HTTPClient.h>

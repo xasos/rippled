@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/ledger/ApplyViewImpl.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <cassert>
 
 namespace ripple {

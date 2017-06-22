@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/nodestore/impl/codec.h>
 #include <ripple/beast/clock/basic_seconds_clock.h>
 #include <ripple/beast/rfc2616.h>

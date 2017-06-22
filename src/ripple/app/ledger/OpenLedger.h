@@ -24,7 +24,7 @@
 #include <ripple/ledger/CachedSLEs.h>
 #include <ripple/ledger/OpenView.h>
 #include <ripple/app/misc/CanonicalTXSet.h>
-#include <ripple/basics/Log.h>
+#include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/UnorderedContainers.h>
 #include <ripple/core/Config.h>
 #include <ripple/beast/utility/Journal.h>

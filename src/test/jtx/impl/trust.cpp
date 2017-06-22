@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <test/jtx/trust.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/basics/contract.h>
+#include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <stdexcept>
 
 namespace ripple {
