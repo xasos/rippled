@@ -25,7 +25,7 @@
 #include <ripple/core/DatabaseCon.h>
 #include <ripple/app/main/DBInit.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
 #include <ripple/protocol/STExchange.h>
 #include <beast/core/detail/base64.hpp>
 #include <boost/filesystem.hpp>

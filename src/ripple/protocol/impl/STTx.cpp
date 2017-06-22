@@ -18,14 +18,14 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple/protocol/Protocol.h>
-#include <ripple/protocol/Sign.h>
-#include <ripple/protocol/STAccount.h>
-#include <ripple/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/types.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>

@@ -21,7 +21,7 @@
 #define RIPPLE_APP_PATHS_NODEDIRECTORY_H_INCLUDED
 
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
-#include <ripple/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
 #include <ripple/ledger/ApplyView.h>
 
 namespace ripple {

@@ -42,10 +42,10 @@
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/LedgerFormats.h>
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/LedgerFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 #include <ripple/protocol/SystemParameters.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/types.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>

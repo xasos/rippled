@@ -25,7 +25,7 @@
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/st.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <boost/algorithm/string.hpp>
 #include <cassert>
 

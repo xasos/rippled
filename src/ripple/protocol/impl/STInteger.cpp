@@ -20,10 +20,10 @@
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
-#include <ripple/protocol/LedgerFormats.h>
-#include <ripple/protocol/STInteger.h>
-#include <ripple/protocol/TxFormats.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/LedgerFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/STInteger.h>
+#include <ripple-libpp/src/ripple/src/protocol/TxFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/beast/core/LexicalCast.h>
 
 namespace ripple {

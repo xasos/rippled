@@ -22,8 +22,8 @@
 
 #include <ripple/core/Config.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/STTx.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/beast/utility/Journal.h>
 #include <memory>
 #include <utility>

@@ -20,7 +20,7 @@
 #ifndef RIPPLE_SHAMAP_SHAMAPNODEID_H_INCLUDED
 #define RIPPLE_SHAMAP_SHAMAPNODEID_H_INCLUDED
 
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 #include <ripple/basics/base_uint.h>
 #include <ripple/beast/utility/Journal.h>
 #include <ostream>

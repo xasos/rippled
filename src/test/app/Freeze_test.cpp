@@ -20,7 +20,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
 #include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 
 namespace ripple {

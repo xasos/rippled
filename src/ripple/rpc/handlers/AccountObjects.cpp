@@ -25,7 +25,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/LedgerFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/LedgerFormats.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/Context.h>
 #include <ripple/rpc/impl/RPCHelpers.h>

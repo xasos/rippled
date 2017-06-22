@@ -24,7 +24,7 @@
 #include <ripple/app/tx/apply.h>
 #include <ripple/app/tx/impl/Transactor.h>
 #include <ripple/app/tx/impl/ApplyContext.h>
-#include <ripple/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
 #include <boost/algorithm/string/predicate.hpp>
 
 namespace ripple {

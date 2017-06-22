@@ -24,7 +24,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/protocol/st.h>
 #include <ripple/ledger/View.h>
 

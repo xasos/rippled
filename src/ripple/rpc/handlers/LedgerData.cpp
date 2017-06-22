@@ -22,7 +22,7 @@
 #include <ripple/ledger/ReadView.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/LedgerFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/LedgerFormats.h>
 #include <ripple/rpc/impl/RPCHelpers.h>
 #include <ripple/rpc/impl/Tuning.h>
 #include <ripple/rpc/Context.h>

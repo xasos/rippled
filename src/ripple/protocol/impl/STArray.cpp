@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
-#include <ripple/protocol/STBase.h>
-#include <ripple/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
 
 namespace ripple {
 

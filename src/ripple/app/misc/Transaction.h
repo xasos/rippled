@@ -21,8 +21,8 @@
 #define RIPPLE_APP_MISC_TRANSACTION_H_INCLUDED
 
 #include <ripple/protocol/Protocol.h>
-#include <ripple/protocol/STTx.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/beast/utility/Journal.h>
 #include <boost/optional.hpp>
 

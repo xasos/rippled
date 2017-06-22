@@ -21,7 +21,7 @@
 #define RIPPLE_LEDGER_CACHEDSLES_H_INCLUDED
 
 #include <ripple/basics/chrono.h>
-#include <ripple/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
 #include <ripple/beast/container/aged_unordered_map.h>
 #include <memory>
 #include <mutex>

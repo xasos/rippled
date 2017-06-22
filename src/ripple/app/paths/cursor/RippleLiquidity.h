@@ -24,7 +24,7 @@
 #include <ripple/app/paths/RippleCalc.h>
 #include <ripple/app/paths/Tuning.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Rate.h>
+#include <ripple-libpp/src/ripple/src/protocol/Rate.h>
 
 namespace ripple {
 namespace path {

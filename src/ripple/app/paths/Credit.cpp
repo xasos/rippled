@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/protocol/AmountConversions.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 
 namespace ripple {

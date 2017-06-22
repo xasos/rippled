@@ -20,7 +20,7 @@
 #ifndef RIPPLE_LEDGER_CASHDIFF_H_INCLUDED
 #define RIPPLE_LEDGER_CASHDIFF_H_INCLUDED
 
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 #include <memory>                       // std::unique_ptr
 
 namespace ripple {

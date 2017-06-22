@@ -21,7 +21,7 @@
 #define RIPPLE_TEST_JTX_SENDMAX_H_INCLUDED
 
 #include <test/jtx/Env.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 
 namespace ripple {
 namespace test {

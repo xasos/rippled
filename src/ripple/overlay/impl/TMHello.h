@@ -23,7 +23,7 @@
 #include <ripple/app/main/Application.h>
 #include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <beast/http/message.hpp>
 #include <ripple/beast/utility/Journal.h>
 #include <utility>

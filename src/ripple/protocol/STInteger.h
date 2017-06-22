@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PROTOCOL_STINTEGER_H_INCLUDED
 #define RIPPLE_PROTOCOL_STINTEGER_H_INCLUDED
 
-#include <ripple/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
 
 namespace ripple {
 

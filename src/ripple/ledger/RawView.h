@@ -21,8 +21,8 @@
 #define RIPPLE_LEDGER_RAWVIEW_H_INCLUDED
 
 #include <ripple/ledger/ReadView.h>
-#include <ripple/protocol/Serializer.h>
-#include <ripple/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
 #include <boost/optional.hpp>
 #include <cstdint>
 #include <memory>

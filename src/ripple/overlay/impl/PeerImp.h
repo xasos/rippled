@@ -31,8 +31,8 @@
 #include <ripple/core/Job.h>
 #include <ripple/core/LoadEvent.h>
 #include <ripple/protocol/Protocol.h>
-#include <ripple/protocol/STTx.h>
-#include <ripple/protocol/STValidation.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STValidation.h>
 #include <ripple/beast/core/ByteOrder.h>
 #include <ripple/beast/net/IPAddressConversion.h>
 #include <beast/core/placeholders.hpp>

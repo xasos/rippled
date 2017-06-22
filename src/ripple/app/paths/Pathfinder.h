@@ -23,8 +23,8 @@
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple/app/paths/RippleLineCache.h>
 #include <ripple/core/LoadEvent.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/STPathSet.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STPathSet.h>
 
 namespace ripple {
 

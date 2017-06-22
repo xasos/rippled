@@ -21,7 +21,7 @@
 #define RIPPLE_PROTOCOL_KNOWNFORMATS_H_INCLUDED
 
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
-#include <ripple/protocol/SOTemplate.h>
+#include <ripple-libpp/src/ripple/src/protocol/SOTemplate.h>
 #include <memory>
 
 namespace ripple {

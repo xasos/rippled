@@ -20,7 +20,7 @@
 #ifndef RIPPLE_RPC_STATUS_H_INCLUDED
 #define RIPPLE_RPC_STATUS_H_INCLUDED
 
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <cassert>
 

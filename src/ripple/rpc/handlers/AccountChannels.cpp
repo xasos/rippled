@@ -25,7 +25,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
-#include <ripple/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/Context.h>
 #include <ripple/rpc/impl/RPCHelpers.h>

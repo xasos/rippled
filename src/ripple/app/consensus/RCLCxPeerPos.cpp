@@ -22,7 +22,7 @@
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 #include <ripple-libpp/src/ripple/src/protocol/digest.h>
 
 namespace ripple {

@@ -31,11 +31,11 @@
 #include <ripple/basics/mulDiv.h>
 #include <ripple-libpp/src/ripple/src/json/json_writer.h>
 #include <ripple/net/RPCErr.h>
-#include <ripple/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/STAccount.h>
-#include <ripple/protocol/STParsedJSON.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STParsedJSON.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/rpc/impl/LegacyPathFind.h>
 #include <ripple/rpc/impl/RPCHelpers.h>

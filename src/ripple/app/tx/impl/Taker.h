@@ -23,9 +23,9 @@
 #include <ripple/app/tx/impl/Offer.h>
 #include <ripple/core/Config.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Quality.h>
-#include <ripple/protocol/Rate.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Rate.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/beast/utility/Journal.h>
 #include <functional>

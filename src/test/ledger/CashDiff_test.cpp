@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple/ledger/CashDiff.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 #include <ripple/beast/unit_test.h>
 
 namespace ripple {

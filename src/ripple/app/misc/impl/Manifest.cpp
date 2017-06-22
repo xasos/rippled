@@ -25,7 +25,7 @@
 #include <ripple/core/DatabaseCon.h>
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
-#include <ripple/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
 #include <beast/core/detail/base64.hpp>
 #include <boost/regex.hpp>
 #include <numeric>

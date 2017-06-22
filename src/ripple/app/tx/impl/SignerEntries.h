@@ -20,9 +20,9 @@
 #ifndef RIPPLE_TX_IMPL_SIGNER_ENTRIES_H_INCLUDED
 #define RIPPLE_TX_IMPL_SIGNER_ENTRIES_H_INCLUDED
 
-#include <ripple/protocol/STTx.h>      // STTx::maxMultiSigners
-#include <ripple/protocol/UintTypes.h> // AccountID
-#include <ripple/protocol/TER.h>       // temMALFORMED
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>      // STTx::maxMultiSigners
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h> // AccountID
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>       // temMALFORMED
 #include <ripple/beast/utility/Journal.h>     // beast::Journal
 
 namespace ripple {

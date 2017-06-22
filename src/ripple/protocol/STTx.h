@@ -22,8 +22,8 @@
 
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/STObject.h>
-#include <ripple/protocol/TxFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/TxFormats.h>
 #include <boost/container/flat_set.hpp>
 #include <boost/logic/tribool.hpp>
 #include <functional>

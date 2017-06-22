@@ -29,7 +29,7 @@
 #include <ripple/core/Config.h>
 #include <ripple/net/RPCErr.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <ripple/rpc/impl/Tuning.h>
 #include <ripple/beast/core/LexicalCast.h>
 #include <boost/algorithm/clamp.hpp>

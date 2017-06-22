@@ -24,8 +24,8 @@
 #include <ripple/basics/base_uint.h>
 #include <ripple/beast/utility/Journal.h>
 #include <ripple/consensus/LedgerTiming.h>
-#include <ripple/protocol/Serializer.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <memory>
 
 namespace ripple {

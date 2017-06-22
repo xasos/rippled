@@ -21,9 +21,9 @@
 #include <ripple/app/tx/impl/SetSignerList.h>
 #include <ripple/app/ledger/Ledger.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/STObject.h>
-#include <ripple/protocol/STArray.h>
-#include <ripple/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <cstdint>

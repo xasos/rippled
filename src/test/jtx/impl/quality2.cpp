@@ -19,8 +19,8 @@
 
 #include <BeastConfig.h>
 #include <test/jtx/quality.h>
-#include <ripple/protocol/SField.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 
 namespace ripple {
 namespace test {

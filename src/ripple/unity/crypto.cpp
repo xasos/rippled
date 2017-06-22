@@ -19,12 +19,12 @@
 
 #include <BeastConfig.h>
 
-#include <ripple/crypto/impl/ec_key.cpp>
-#include <ripple/crypto/impl/GenerateDeterministicKey.cpp>
-#include <ripple/crypto/impl/KeyType.cpp>
-#include <ripple/crypto/impl/openssl.cpp>
-#include <ripple/crypto/impl/csprng.cpp>
-#include <ripple/crypto/impl/RFC1751.cpp>
+#include <ripple-libpp/src/ripple/src/crypto/impl/ec_key.cpp>
+#include <ripple-libpp/src/ripple/src/crypto/impl/GenerateDeterministicKey.cpp>
+#include <ripple-libpp/src/ripple/src/crypto/impl/KeyType.cpp>
+#include <ripple-libpp/src/ripple/src/crypto/impl/openssl.cpp>
+#include <ripple-libpp/src/ripple/src/crypto/impl/csprng.cpp>
+#include <ripple-libpp/src/ripple/src/crypto/impl/RFC1751.cpp>
 
 #if DOXYGEN
 #include <ripple/crypto/README.md>

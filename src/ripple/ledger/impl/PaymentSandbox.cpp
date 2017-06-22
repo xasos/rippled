@@ -22,8 +22,8 @@
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple/ledger/View.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/SField.h>
-#include <ripple/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
 #include <boost/optional.hpp>
 
 #include <cassert>

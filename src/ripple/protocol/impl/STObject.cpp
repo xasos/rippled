@@ -18,11 +18,11 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STObject.h>
-#include <ripple/protocol/InnerObjectFormats.h>
-#include <ripple/protocol/STAccount.h>
-#include <ripple/protocol/STArray.h>
-#include <ripple/protocol/STBlob.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/InnerObjectFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBlob.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 
 namespace ripple {

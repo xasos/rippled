@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/beast/unit_test.h>
 
 namespace ripple {

@@ -22,9 +22,9 @@
 
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Quality.h>
-#include <ripple/protocol/STLedgerEntry.h>
-#include <ripple/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
 #include <ostream>
 #include <stdexcept>
 

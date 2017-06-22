@@ -22,7 +22,7 @@
 
 #include <test/jtx/Account.h>
 #include <ripple-libpp/src/ripple/src/json/json_value.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 
 namespace ripple {
 namespace test {

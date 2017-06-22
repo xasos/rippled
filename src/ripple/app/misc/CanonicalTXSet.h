@@ -21,7 +21,7 @@
 #define RIPPLE_APP_MISC_CANONICALTXSET_H_INCLUDED
 
 #include <ripple/protocol/RippleLedgerHash.h>
-#include <ripple/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
 
 namespace ripple {
 

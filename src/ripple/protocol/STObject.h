@@ -24,11 +24,11 @@
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/STPathSet.h>
-#include <ripple/protocol/STVector256.h>
-#include <ripple/protocol/SOTemplate.h>
-#include <ripple/protocol/impl/STVar.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STPathSet.h>
+#include <ripple-libpp/src/ripple/src/protocol/STVector256.h>
+#include <ripple-libpp/src/ripple/src/protocol/SOTemplate.h>
+#include <ripple-libpp/src/ripple/src/protocol/impl/STVar.h>
 #include <boost/iterator/transform_iterator.hpp>
 #include <boost/optional.hpp>
 #include <cassert>

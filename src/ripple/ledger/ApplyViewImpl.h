@@ -22,8 +22,8 @@
 
 #include <ripple/ledger/OpenView.h>
 #include <ripple/ledger/detail/ApplyViewBase.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <boost/optional.hpp>
 
 namespace ripple {

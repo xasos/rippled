@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 #include <ripple/shamap/SHAMapItem.h>
 
 namespace ripple {

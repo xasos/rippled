@@ -18,9 +18,9 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/Sign.h>
-#include <ripple/protocol/STTx.h>
-#include <ripple/protocol/STParsedJSON.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STParsedJSON.h>
 #include <ripple/protocol/types.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/beast/unit_test.h>

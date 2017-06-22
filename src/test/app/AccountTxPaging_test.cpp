@@ -18,7 +18,7 @@
 //==============================================================================
 #include <test/jtx.h>
 #include <ripple/beast/unit_test.h>
-#include <ripple/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
 #include <ripple/protocol/JsonFields.h>
 #include <cstdlib>
 

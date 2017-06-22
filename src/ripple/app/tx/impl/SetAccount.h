@@ -24,7 +24,7 @@
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/protocol/TxFlags.h>
 
 namespace ripple {

@@ -19,7 +19,7 @@
 
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
-#include <ripple/protocol/IOUAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/IOUAmount.h>
 #include <boost/multiprecision/cpp_int.hpp>
 #include <algorithm>
 #include <numeric>

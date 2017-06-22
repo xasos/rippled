@@ -24,7 +24,7 @@
 #include <ripple/beast/utility/Journal.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 
 namespace ripple {
 

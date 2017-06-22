@@ -22,7 +22,7 @@
 
 #include <ripple/basics/Buffer.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
 #include <cstring>
 #include <memory>
 

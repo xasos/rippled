@@ -23,7 +23,7 @@
 #include <ripple/basics/base_uint.h>
 #include <ripple/basics/Blob.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 #include <ripple/beast/utility/Journal.h>
 
 #include <cstddef>

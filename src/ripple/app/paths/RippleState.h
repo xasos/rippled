@@ -21,9 +21,9 @@
 #define RIPPLE_APP_PATHS_RIPPLESTATE_H_INCLUDED
 
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Rate.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/Rate.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
 #include <cstdint>
 #include <memory> // <memory>
 

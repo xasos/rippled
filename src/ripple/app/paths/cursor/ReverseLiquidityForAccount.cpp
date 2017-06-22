@@ -21,7 +21,7 @@
 #include <ripple/app/paths/Credit.h>
 #include <ripple/app/paths/cursor/RippleLiquidity.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 
 namespace ripple {
 namespace path {

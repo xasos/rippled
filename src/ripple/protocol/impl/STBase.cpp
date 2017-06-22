@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
 #include <boost/checked_delete.hpp>
 #include <cassert>
 #include <memory>

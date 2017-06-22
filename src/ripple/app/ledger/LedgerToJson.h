@@ -24,7 +24,7 @@
 #include <ripple/app/misc/TxQ.h>
 #include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
 #include <ripple/json/Object.h>
 
 namespace ripple {

@@ -22,8 +22,8 @@
 
 #include <ripple/app/paths/NodeDirectory.h>
 #include <ripple/app/paths/Types.h>
-#include <ripple/protocol/Rate.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/Rate.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <boost/optional.hpp>
 
 namespace ripple {

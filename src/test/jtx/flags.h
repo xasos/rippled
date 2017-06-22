@@ -21,7 +21,7 @@
 #define RIPPLE_TEST_JTX_FLAGS_H_INCLUDED
 
 #include <test/jtx/Env.h>
-#include <ripple/protocol/LedgerFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/LedgerFormats.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 

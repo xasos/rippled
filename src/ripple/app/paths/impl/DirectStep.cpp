@@ -23,8 +23,8 @@
 #include <ripple/app/paths/impl/Steps.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/ledger/PaymentSandbox.h>
-#include <ripple/protocol/IOUAmount.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/IOUAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 
 #include <boost/container/flat_set.hpp>
 

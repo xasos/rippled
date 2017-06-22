@@ -19,10 +19,10 @@
 
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
-#include <ripple/protocol/InnerObjectFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/InnerObjectFormats.h>
 #include <ripple-libpp/src/ripple/src/protocol/ErrorCodes.h>          // RPC::containsError
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>             // Json::Reader
-#include <ripple/protocol/STParsedJSON.h>        // STParsedJSONObject
+#include <ripple-libpp/src/ripple/src/protocol/STParsedJSON.h>        // STParsedJSONObject
 #include <ripple/beast/unit_test.h>
 #include <test/jtx.h>
 

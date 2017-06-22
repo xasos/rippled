@@ -19,17 +19,17 @@
 
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
-#include <ripple/protocol/STAccount.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/STArray.h>
-#include <ripple/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
 #include <ripple/protocol/STBitString.h>
-#include <ripple/protocol/STBlob.h>
-#include <ripple/protocol/STInteger.h>
-#include <ripple/protocol/STObject.h>
-#include <ripple/protocol/STPathSet.h>
-#include <ripple/protocol/STVector256.h>
-#include <ripple/protocol/impl/STVar.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBlob.h>
+#include <ripple-libpp/src/ripple/src/protocol/STInteger.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STPathSet.h>
+#include <ripple-libpp/src/ripple/src/protocol/STVector256.h>
+#include <ripple-libpp/src/ripple/src/protocol/impl/STVar.h>
 
 namespace ripple {
 namespace detail {

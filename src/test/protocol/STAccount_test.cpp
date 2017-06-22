@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
 #include <ripple/beast/unit_test.h>
 
 namespace ripple {

@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STPathSet.h>
+#include <ripple-libpp/src/ripple/src/protocol/STPathSet.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>

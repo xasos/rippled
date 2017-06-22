@@ -22,7 +22,7 @@
 
 #include <ripple-libpp/src/ripple/src/protocol/AccountID.h>
 #include <ripple-libpp/src/ripple/src/protocol/Issue.h>
-#include <ripple/protocol/Rate.h>
+#include <ripple-libpp/src/ripple/src/protocol/Rate.h>
 #include <boost/optional.hpp>
 
 namespace ripple {

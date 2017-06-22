@@ -26,7 +26,7 @@
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
 
 
 namespace ripple {

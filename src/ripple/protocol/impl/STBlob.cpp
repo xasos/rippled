@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STBlob.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBlob.h>
 #include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 
 namespace ripple {

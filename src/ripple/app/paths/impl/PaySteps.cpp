@@ -23,7 +23,7 @@
 #include <ripple-libpp/src/ripple/src/json/json_writer.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/IOUAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/IOUAmount.h>
 #include <ripple/protocol/XRPAmount.h>
 
 #include <boost/range/adaptors.hpp>

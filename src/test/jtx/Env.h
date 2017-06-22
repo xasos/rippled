@@ -41,9 +41,9 @@
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple-libpp/src/ripple/src/protocol/Issue.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/STObject.h>
-#include <ripple/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
 #include <beast/core/detail/is_call_possible.hpp>
 #include <ripple/beast/unit_test.h>
 #include <functional>

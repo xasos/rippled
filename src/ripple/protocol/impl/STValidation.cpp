@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/STValidation.h>
+#include <ripple-libpp/src/ripple/src/protocol/STValidation.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>

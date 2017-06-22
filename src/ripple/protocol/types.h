@@ -22,6 +22,6 @@
 
 // DEPRECATED HEADER
 
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 
 #endif

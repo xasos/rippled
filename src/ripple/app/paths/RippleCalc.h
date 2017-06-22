@@ -23,8 +23,8 @@
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple/app/paths/PathState.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
-#include <ripple/protocol/STAmount.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 
 #include <boost/container/flat_set.hpp>
 

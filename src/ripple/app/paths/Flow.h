@@ -22,7 +22,7 @@
 
 #include <ripple/app/paths/impl/Steps.h>
 #include <ripple/app/paths/RippleCalc.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 
 namespace ripple
 {

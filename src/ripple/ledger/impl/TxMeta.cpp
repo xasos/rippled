@@ -22,7 +22,7 @@
 #include <ripple/ledger/TxMeta.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
-#include <ripple/protocol/STAccount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAccount.h>
 #include <string>
 
 namespace ripple {

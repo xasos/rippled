@@ -22,8 +22,8 @@
 
 #include <test/jtx/Env.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/LedgerFormats.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/LedgerFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <cstdint>
 
 namespace ripple {

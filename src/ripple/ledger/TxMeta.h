@@ -20,9 +20,9 @@
 #ifndef RIPPLE_APP_TX_TRANSACTIONMETA_H_INCLUDED
 #define RIPPLE_APP_TX_TRANSACTIONMETA_H_INCLUDED
 
-#include <ripple/protocol/STLedgerEntry.h>
-#include <ripple/protocol/STArray.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/beast/utility/Journal.h>
 #include <boost/container/flat_set.hpp>
 #include <boost/optional.hpp>

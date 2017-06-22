@@ -22,7 +22,7 @@
 
 #include <ripple/app/main/Application.h>
 #include <ripple/protocol/Protocol.h>
-#include <ripple/protocol/STValidation.h>
+#include <ripple-libpp/src/ripple/src/protocol/STValidation.h>
 #include <memory>
 #include <vector>
 

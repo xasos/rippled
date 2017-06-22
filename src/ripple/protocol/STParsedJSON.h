@@ -20,7 +20,7 @@
 #ifndef RIPPLE_PROTOCOL_STPARSEDJSON_H_INCLUDED
 #define RIPPLE_PROTOCOL_STPARSEDJSON_H_INCLUDED
 
-#include <ripple/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
 #include <boost/optional.hpp>
 
 namespace ripple {

@@ -23,7 +23,7 @@
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/core/Config.h>
 #include <ripple/ledger/ReadView.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 #include <ripple/protocol/JsonFields.h>
 #include <cstdint>
 #include <type_traits>

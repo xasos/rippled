@@ -32,7 +32,7 @@
 #include <ripple/basics/ScopedLock.h>
 #include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/RippleLedgerHash.h>
-#include <ripple/protocol/STValidation.h>
+#include <ripple-libpp/src/ripple/src/protocol/STValidation.h>
 #include <ripple/beast/insight/Collector.h>
 #include <ripple/core/Stoppable.h>
 #include <ripple/beast/utility/PropertyStream.h>

@@ -22,7 +22,7 @@
 
 #include <ripple/app/misc/CanonicalTXSet.h>
 #include <ripple/basics/chrono.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <ripple/shamap/SHAMap.h>
 
 namespace ripple {

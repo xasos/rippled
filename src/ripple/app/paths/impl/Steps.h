@@ -22,9 +22,9 @@
 
 #include <ripple/app/paths/impl/AmountSpec.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
-#include <ripple/protocol/Quality.h>
-#include <ripple/protocol/STLedgerEntry.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 
 #include <boost/container/flat_set.hpp>
 #include <boost/optional.hpp>

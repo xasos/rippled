@@ -26,7 +26,7 @@
 #include <ripple/overlay/Cluster.h>
 #include <ripple/overlay/ClusterNode.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/tokens.h>
+#include <ripple-libpp/src/ripple/src/protocol/tokens.h>
 #include <boost/regex.hpp>
 #include <memory.h>
 

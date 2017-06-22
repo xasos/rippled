@@ -21,7 +21,7 @@
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/basics/StringUtilities.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/STVector256.h>
+#include <ripple-libpp/src/ripple/src/protocol/STVector256.h>
 
 namespace ripple {
 

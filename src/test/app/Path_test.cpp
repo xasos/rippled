@@ -24,7 +24,7 @@
 #include <ripple-libpp/src/ripple/src/json/json_reader.h>
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/STParsedJSON.h>
+#include <ripple-libpp/src/ripple/src/protocol/STParsedJSON.h>
 #include <ripple/protocol/TxFlags.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/rpc/Context.h>

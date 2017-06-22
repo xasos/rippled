@@ -21,8 +21,8 @@
 #define RIPPLE_PROTOCOL_STVECTOR256_H_INCLUDED
 
 #include <ripple/protocol/STBitString.h>
-#include <ripple/protocol/STInteger.h>
-#include <ripple/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/STInteger.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
 
 namespace ripple {
 

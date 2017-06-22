@@ -23,8 +23,8 @@
 #include <test/jtx/requires.h>
 #include <test/jtx/basic_prop.h>
 #include <ripple-libpp/src/ripple/src/json/json_value.h>
-#include <ripple/protocol/STTx.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <functional>
 #include <memory>
 #include <vector>

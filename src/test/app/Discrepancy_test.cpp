@@ -25,7 +25,7 @@
 #include <ripple/beast/core/LexicalCast.h>
 #include <ripple/protocol/JsonFields.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
 
 namespace ripple {
 

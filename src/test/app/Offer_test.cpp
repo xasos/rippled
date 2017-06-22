@@ -23,7 +23,7 @@
 #include <test/jtx/PathSet.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 
 namespace ripple {
 namespace test {

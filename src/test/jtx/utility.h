@@ -23,7 +23,7 @@
 #include <test/jtx/Account.h>
 #include <ripple-libpp/src/ripple/src/json/json_value.h>
 #include <ripple/app/ledger/Ledger.h>
-#include <ripple/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
 #include <stdexcept>
 
 namespace ripple {

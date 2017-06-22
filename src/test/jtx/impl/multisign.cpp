@@ -22,7 +22,7 @@
 #include <test/jtx/utility.h>
 #include <ripple-libpp/src/ripple/src/protocol/HashPrefix.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/Sign.h>
+#include <ripple-libpp/src/ripple/src/protocol/Sign.h>
 #include <ripple/protocol/types.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 

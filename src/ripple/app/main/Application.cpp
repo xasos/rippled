@@ -50,7 +50,7 @@
 #include <ripple/nodestore/DummyScheduler.h>
 #include <ripple/overlay/Cluster.h>
 #include <ripple/overlay/make_Overlay.h>
-#include <ripple/protocol/STParsedJSON.h>
+#include <ripple-libpp/src/ripple/src/protocol/STParsedJSON.h>
 #include <ripple/resource/Fees.h>
 #include <ripple/beast/asio/io_latency_probe.h>
 #include <ripple/beast/core/LexicalCast.h>

@@ -21,7 +21,7 @@
 #define RIPPLE_PROTOCOL_STLEDGERENTRY_H_INCLUDED
 
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
-#include <ripple/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
 
 namespace ripple {
 

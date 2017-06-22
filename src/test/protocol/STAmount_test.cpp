@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/basics/random.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 #include <ripple/beast/unit_test.h>
 
 namespace ripple {

@@ -21,9 +21,9 @@
 #define RIPPLE_PROTOCOL_STPATHSET_H_INCLUDED
 
 #include <ripple-libpp/src/ripple/src/json/json_value.h>
-#include <ripple/protocol/SField.h>
-#include <ripple/protocol/STBase.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <boost/optional.hpp>
 #include <cassert>
 #include <cstddef>

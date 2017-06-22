@@ -25,7 +25,7 @@
 #include <ripple/basics/chrono.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple/ledger/View.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/beast/utility/Journal.h>
 
 #include <boost/container/flat_set.hpp>

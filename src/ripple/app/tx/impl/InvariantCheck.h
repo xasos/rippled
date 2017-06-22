@@ -21,9 +21,9 @@
 #define RIPPLE_APP_TX_INVARIANTCHECK_H_INCLUDED
 
 #include <ripple/basics/base_uint.h>
-#include <ripple/protocol/STLedgerEntry.h>
-#include <ripple/protocol/STTx.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/beast/utility/Journal.h>
 #include <tuple>
 #include <cstdint>

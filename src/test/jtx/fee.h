@@ -22,7 +22,7 @@
 
 #include <test/jtx/Env.h>
 #include <test/jtx/tags.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <boost/optional.hpp>
 

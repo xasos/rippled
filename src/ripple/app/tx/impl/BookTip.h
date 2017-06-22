@@ -20,7 +20,7 @@
 #ifndef RIPPLE_APP_BOOK_BOOKTIP_H_INCLUDED
 #define RIPPLE_APP_BOOK_BOOKTIP_H_INCLUDED
 
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/ledger/View.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 

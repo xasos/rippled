@@ -20,8 +20,8 @@
 #include <BeastConfig.h>
 #include <ripple/app/tx/impl/SignerEntries.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
-#include <ripple/protocol/STObject.h>
-#include <ripple/protocol/STArray.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STArray.h>
 #include <cstdint>
 
 namespace ripple {

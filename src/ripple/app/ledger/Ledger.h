@@ -26,8 +26,8 @@
 #include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
 #include <ripple/core/TimeKeeper.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
-#include <ripple/protocol/STLedgerEntry.h>
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 #include <ripple-libpp/src/ripple/src/protocol/Book.h>
 #include <ripple/shamap/SHAMap.h>
 #include <ripple/beast/utility/Journal.h>

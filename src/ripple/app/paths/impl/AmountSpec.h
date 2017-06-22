@@ -20,9 +20,9 @@
 #ifndef RIPPLE_PATH_IMPL_AMOUNTSPEC_H_INCLUDED
 #define RIPPLE_PATH_IMPL_AMOUNTSPEC_H_INCLUDED
 
-#include <ripple/protocol/IOUAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/IOUAmount.h>
 #include <ripple/protocol/XRPAmount.h>
-#include <ripple/protocol/STAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/STAmount.h>
 
 namespace ripple {
 

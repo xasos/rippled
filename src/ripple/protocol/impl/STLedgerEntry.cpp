@@ -23,7 +23,7 @@
 #include <ripple-libpp/src/ripple/src/json/to_string.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/JsonFields.h>
-#include <ripple/protocol/STLedgerEntry.h>
+#include <ripple-libpp/src/ripple/src/protocol/STLedgerEntry.h>
 #include <boost/format.hpp>
 
 namespace ripple {

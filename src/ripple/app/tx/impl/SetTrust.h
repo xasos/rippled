@@ -20,7 +20,7 @@
 #ifndef RIPPLE_TX_SETTRUST_H_INCLUDED
 #define RIPPLE_TX_SETTRUST_H_INCLUDED
 
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/app/tx/impl/Transactor.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>

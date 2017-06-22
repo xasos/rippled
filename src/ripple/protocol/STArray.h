@@ -21,7 +21,7 @@
 #define RIPPLE_PROTOCOL_STARRAY_H_INCLUDED
 
 #include <ripple-libpp/src/ripple/src/basics/CountedObject.h>
-#include <ripple/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
 
 namespace ripple {
 

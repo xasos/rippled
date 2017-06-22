@@ -18,7 +18,7 @@
 //==============================================================================
 
 #include <BeastConfig.h>
-#include <ripple/protocol/InnerObjectFormats.h>
+#include <ripple-libpp/src/ripple/src/protocol/InnerObjectFormats.h>
 
 namespace ripple {
 

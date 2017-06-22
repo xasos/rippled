@@ -20,7 +20,7 @@
 #include <BeastConfig.h>
 #include <ripple/ledger/CachedView.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
-#include <ripple/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
 
 namespace ripple {
 namespace detail {

@@ -32,7 +32,7 @@
 #include <ripple/core/JobQueue.h>
 #include <ripple/overlay/Message.h>
 #include <ripple/protocol/RippleLedgerHash.h>
-#include <ripple/protocol/STValidation.h>
+#include <ripple-libpp/src/ripple/src/protocol/STValidation.h>
 #include <ripple/shamap/SHAMap.h>
 
 namespace ripple {

@@ -27,7 +27,7 @@
 #include <ripple/overlay/impl/Tuning.h>
 #include <ripple/overlay/Message.h>
 #include <ripple-libpp/src/ripple/src/protocol/BuildInfo.h>
-#include <ripple/protocol/UintTypes.h>
+#include <ripple-libpp/src/ripple/src/protocol/UintTypes.h>
 #include <ripple/beast/asio/ssl_bundle.h>
 #include <ripple/beast/net/IPAddressConversion.h>
 #include <ripple/beast/utility/WrappedSink.h>

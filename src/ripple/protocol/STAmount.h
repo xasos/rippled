@@ -22,11 +22,11 @@
 
 #include <ripple/basics/chrono.h>
 #include <ripple/basics/LocalValue.h>
-#include <ripple/protocol/SField.h>
-#include <ripple/protocol/Serializer.h>
-#include <ripple/protocol/STBase.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/Serializer.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBase.h>
 #include <ripple-libpp/src/ripple/src/protocol/Issue.h>
-#include <ripple/protocol/IOUAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/IOUAmount.h>
 #include <ripple/protocol/XRPAmount.h>
 #include <memory>
 

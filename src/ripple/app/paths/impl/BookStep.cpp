@@ -28,8 +28,8 @@
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple-libpp/src/ripple/src/protocol/Book.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/IOUAmount.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/IOUAmount.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/protocol/XRPAmount.h>
 
 #include <boost/container/flat_set.hpp>

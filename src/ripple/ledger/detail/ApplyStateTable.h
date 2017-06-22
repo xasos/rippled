@@ -24,7 +24,7 @@
 #include <ripple/ledger/RawView.h>
 #include <ripple/ledger/ReadView.h>
 #include <ripple/ledger/TxMeta.h>
-#include <ripple/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
 #include <ripple/protocol/XRPAmount.h>
 #include <ripple/beast/utility/Journal.h>
 #include <memory>

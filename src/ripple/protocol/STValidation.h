@@ -22,7 +22,7 @@
 
 #include <ripple-libpp/src/ripple/src/protocol/PublicKey.h>
 #include <ripple-libpp/src/ripple/src/protocol/SecretKey.h>
-#include <ripple/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
 #include <cstdint>
 #include <memory>
 

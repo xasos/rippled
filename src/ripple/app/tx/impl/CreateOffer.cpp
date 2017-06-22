@@ -25,7 +25,7 @@
 #include <ripple/ledger/PaymentSandbox.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
 #include <ripple/protocol/st.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple/beast/utility/WrappedSink.h>
 
 namespace ripple {

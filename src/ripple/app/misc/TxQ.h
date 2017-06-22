@@ -23,8 +23,8 @@
 #include <ripple/app/tx/applySteps.h>
 #include <ripple/ledger/OpenView.h>
 #include <ripple/ledger/ApplyView.h>
-#include <ripple/protocol/TER.h>
-#include <ripple/protocol/STTx.h>
+#include <ripple-libpp/src/ripple/src/protocol/TER.h>
+#include <ripple-libpp/src/ripple/src/protocol/STTx.h>
 #include <boost/intrusive/set.hpp>
 
 namespace ripple {

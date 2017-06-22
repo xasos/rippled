@@ -21,7 +21,7 @@
 #include <ripple/app/tx/impl/SetTrust.h>
 #include <ripple-libpp/src/ripple/src/basics/Log.h>
 #include <ripple-libpp/src/ripple/src/protocol/Feature.h>
-#include <ripple/protocol/Quality.h>
+#include <ripple-libpp/src/ripple/src/protocol/Quality.h>
 #include <ripple-libpp/src/ripple/src/protocol/Indexes.h>
 #include <ripple/protocol/st.h>
 #include <ripple/ledger/View.h>

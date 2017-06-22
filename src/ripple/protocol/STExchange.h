@@ -23,10 +23,10 @@
 #include <ripple/basics/Buffer.h>
 #include <ripple-libpp/src/ripple/src/basics/contract.h>
 #include <ripple/basics/Slice.h>
-#include <ripple/protocol/SField.h>
-#include <ripple/protocol/STBlob.h>
-#include <ripple/protocol/STInteger.h>
-#include <ripple/protocol/STObject.h>
+#include <ripple-libpp/src/ripple/src/protocol/SField.h>
+#include <ripple-libpp/src/ripple/src/protocol/STBlob.h>
+#include <ripple-libpp/src/ripple/src/protocol/STInteger.h>
+#include <ripple-libpp/src/ripple/src/protocol/STObject.h>
 #include <ripple/basics/Blob.h>
 #include <boost/optional.hpp>
 #include <memory>
