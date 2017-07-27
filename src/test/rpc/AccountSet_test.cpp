@@ -207,42 +207,54 @@ public:
     void testTransferRate()
     {
         {
+            testcase ("Setting transfer rate (without fix1201)");
+
             using namespace test::jtx;
-            Env env (*this);
+            Env env (*this, all_features_except(fix1201));
 
             Account const alice ("alice");
             env.fund(XRP(10000), alice);
-            auto jt = noop(alice);
+            //auto jt = noop(alice);
 
-            uint32 xfer_rate = QUALITY_ONE;
-            jt[sfTransferRate.fieldName] = xfer_rate;
-            env(jt);
-            BEAST_EXPECT(! env.le(alice)->isFieldPresent(sfTransferRate));
+            auto test = [&env,&alice](double set, TER code, double get)
+            {
+                env(rate(alice, set), ter(code));
+                BEAST_EXPECT((*env.le(alice))[sfTransferRate] == get * QUALITY_ONE);
+            };
 
-            xfer_rate = 2 * QUALITY_ONE;
-            jt[sfTransferRate.fieldName] = xfer_rate;
-            env(jt);
-            BEAST_EXPECT((*env.le(alice))[ sfTransferRate ] == xfer_rate);
+            //test(0.7, temBAD_TRANSFER_RATE, 1.0);
+            test (1.1, tesSUCCESS, 1.1);
+            test (2.0, tesSUCCESS, 2.0);
 
-            jt[sfTransferRate.fieldName] = 0u;
-            env(jt);
-            BEAST_EXPECT(! env.le(alice)->isFieldPresent(sfTransferRate));
+            //uint32 xfer_rate = QUALITY_ONE;
+            //jt[sfTransferRate.fieldName] = xfer_rate;
+            //env(jt);
+            //BEAST_EXPECT(! env.le(alice)->isFieldPresent(sfTransferRate));
 
-            // set a bad value over limit (> 2 * QUALITY_ONE)
-            xfer_rate = (2 * QUALITY_ONE) + 1;
-            jt[sfTransferRate.fieldName] = xfer_rate;
-            env(jt);
-            BEAST_EXPECT((*env.le(alice))[ sfTransferRate ] == xfer_rate);
+            //xfer_rate = 2 * QUALITY_ONE;
+            //jt[sfTransferRate.fieldName] = xfer_rate;
+            //env(jt);
+            //BEAST_EXPECT((*env.le(alice))[ sfTransferRate ] == xfer_rate);
 
-            // set a bad value over limit (> 2 * QUALITY_ONE)
-            xfer_rate = std::numeric_limits<std::uint32_t>::max();
-            jt[sfTransferRate.fieldName] = xfer_rate;
-            env(jt);
-            BEAST_EXPECT((*env.le(alice))[ sfTransferRate ] == xfer_rate);
+            //jt[sfTransferRate.fieldName] = 0u;
+            //env(jt);
+            //BEAST_EXPECT(! env.le(alice)->isFieldPresent(sfTransferRate));
 
-            // set a bad value under limit (< QUALITY_ONE)
-            jt[sfTransferRate.fieldName] = 1u;
-            env(jt, ter(temBAD_TRANSFER_RATE));
+            //// set a bad value over limit (> 2 * QUALITY_ONE)
+            //xfer_rate = (2 * QUALITY_ONE) + 1;
+            //jt[sfTransferRate.fieldName] = xfer_rate;
+            //env(jt);
+            //BEAST_EXPECT((*env.le(alice))[ sfTransferRate ] == xfer_rate);
+
+            //// set a bad value over limit (> 2 * QUALITY_ONE)
+            //xfer_rate = std::numeric_limits<std::uint32_t>::max();
+            //jt[sfTransferRate.fieldName] = xfer_rate;
+            //env(jt);
+            //BEAST_EXPECT((*env.le(alice))[ sfTransferRate ] == xfer_rate);
+
+            //// set a bad value under limit (< QUALITY_ONE)
+            //jt[sfTransferRate.fieldName] = 1u;
+            //env(jt, ter(temBAD_TRANSFER_RATE));
         }
         {
             // Test max transferRate with fix1201 enabled
@@ -273,7 +285,7 @@ public:
     void testGateway()
     {
         using namespace test::jtx;
-        auto runTest = [&](Env& env, double tr)
+        auto runTest = [](Env& env, double tr)
         {
             Account const alice ("alice");
             Account const bob ("bob");
@@ -298,19 +310,19 @@ public:
 
         // Test gateway with allowed transfer rates
         {
-            Env env (*this);
+            Env env (*this, all_features_except(fix1201));
             runTest (env, 1.02);
         }
         {
-            Env env (*this);
+            Env env (*this, all_features_except(fix1201));
             runTest (env, 1);
         }
         {
-            Env env (*this);
+            Env env (*this, all_features_except(fix1201));
             runTest (env, 2);
         }
         {
-            Env env (*this);
+            Env env (*this, all_features_except(fix1201));
             runTest (env, 2.1);
         }
         {
@@ -324,7 +336,7 @@ public:
 
         // Test gateway when amendment is set after transfer rate
         {
-            Env env (*this);
+            Env env (*this, all_features_except(fix1201));
             Account const alice ("alice");
             Account const bob ("bob");
             Account const gw ("gateway");
@@ -334,6 +346,7 @@ public:
             env.fund(XRP(10000), gw, alice, bob);
             env.trust(USD(3), alice, bob);
             env(rate(gw, tr));
+            env.close();
             env.enableFeature(fix1201);
             env.close();
 
@@ -342,10 +355,10 @@ public:
             auto const amountWithRate = toAmount<STAmount> (multiply(amount.value(), rate));
 
             env(pay(gw, alice, USD(3)));
-            env(pay(alice, bob, USD(1)), sendmax(USD(3)));
+            env(pay(alice, bob, amount), sendmax(USD(3)));
 
             env.require(balance(alice, USD(3) - amountWithRate));
-            env.require(balance(bob, USD(1)));
+            env.require(balance(bob, amount));
         }
 
         // Test gateway with invalid transfer rate
@@ -359,11 +372,7 @@ public:
 
             env.fund(XRP(10000), gw, alice, bob);
             env.trust(USD(3), alice, bob);
-
-            uint32 xfer_rate = 2.1 * QUALITY_ONE;
-            jt[sfTransferRate.fieldName] = xfer_rate;
-            std::cout << "THIS IS XFER_RATE FOR 2.1: " << xfer_rate;
-            env(jt, ter(temBAD_TRANSFER_RATE));
+            env(rate(alice, 2.1), ter(temBAD_TRANSFER_RATE));
         }
     }
 

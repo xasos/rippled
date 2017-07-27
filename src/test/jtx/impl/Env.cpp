@@ -540,9 +540,9 @@ Env::do_rpc(std::vector<std::string> const& args)
 void
 Env::enableFeature(uint256 const feature)
 {
-    close();
+    // Env::close() must be called for feature
+    // enable to take place.
     app().config().features.insert(feature);
-    close();
 }
 
 } // jtx
