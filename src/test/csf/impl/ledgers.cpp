@@ -56,7 +56,7 @@ LedgerOracle::accept(
 {
     Ledger::Instance next(*curr.instance_);
     next.txs.insert(txs.begin(), txs.end());
-    next.seq = curr.seq() + 1;
+    next.seq = curr.seq() + Ledger::Seq{1};
     next.closeTimeResolution = closeTimeResolution;
     next.closeTimeAgree = consensusCloseTime != NetClock::time_point{};
     if(next.closeTimeAgree)

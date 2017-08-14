@@ -621,6 +621,8 @@ Consensus<Adaptor>::startRoundInternal(
     Ledger_t const& prevLedger,
     ConsensusMode mode)
 {
+    using SeqType = decltype(prevLedger.seq());
+
     phase_ = ConsensusPhase::open;
     mode_.set(mode, adaptor_);
     now_ = now;
@@ -639,7 +641,7 @@ Consensus<Adaptor>::startRoundInternal(
     closeResolution_ = getNextLedgerTimeResolution(
         previousLedger_.closeTimeResolution(),
         previousLedger_.closeAgree(),
-        previousLedger_.seq() + 1);
+        previousLedger_.seq() + SeqType{1});
 
     playbackProposals();
     if (currPeerPositions_.size() > (prevProposers_ / 2))
@@ -875,7 +877,8 @@ Consensus<Adaptor>::getJson(bool full) const
     if (mode_.get() != ConsensusMode::wrongLedger)
     {
         ret["synched"] = true;
-        ret["ledger_seq"] = static_cast<std::uint32_t>(previousLedger_.seq() + 1);
+        ret["ledger_seq"] =
+            static_cast<std::uint32_t>(previousLedger_.seq()) + 1;
         ret["close_granularity"] = static_cast<Int>(closeResolution_.count());
     }
     else
@@ -1315,8 +1318,9 @@ Consensus<Adaptor>::updateOurPositions()
 
         for (auto const& it : effCloseTimes)
         {
+            using SeqType = decltype(previousLedger_.seq());
             JLOG(j_.debug())
-                << "CCTime: seq " << previousLedger_.seq() + 1 << ": "
+                << "CCTime: seq " << previousLedger_.seq() + SeqType{1} << ": "
                 << it.first.time_since_epoch().count() << " has " << it.second
                 << ", " << threshVote << " required";
 

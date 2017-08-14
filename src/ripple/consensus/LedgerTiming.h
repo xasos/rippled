@@ -86,7 +86,8 @@ getNextLedgerTimeResolution(
 
     // If we did not previously agree, we try to decrease the resolution to
     // improve the chance that we will agree now.
-    if (!previousAgree && ledgerSeq % decreaseLedgerTimeResolutionEvery == seq{0})
+    if (!previousAgree &&
+        ledgerSeq % seq{decreaseLedgerTimeResolutionEvery} == seq{0})
     {
         if (++iter != std::end(ledgerPossibleTimeResolutions))
             return *iter;
@@ -94,7 +95,8 @@ getNextLedgerTimeResolution(
 
     // If we previously agreed, we try to increase the resolution to determine
     // if we can continue to agree.
-    if (previousAgree && ledgerSeq % increaseLedgerTimeResolutionEvery == seq{0})
+    if (previousAgree &&
+        ledgerSeq % seq{increaseLedgerTimeResolutionEvery} == seq{0})
     {
         if (iter-- != std::begin(ledgerPossibleTimeResolutions))
             return *iter;
