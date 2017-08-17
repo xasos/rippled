@@ -17,6 +17,8 @@
 */
 //==============================================================================
 #include <BeastConfig.h>
+#include <boost/random/mersenne_twister.hpp>
+#include <boost/random/uniform_int_distribution.hpp>
 #include <ripple/beast/clock/manual_clock.h>
 #include <ripple/beast/unit_test.h>
 #include <test/csf.h>
@@ -111,8 +113,13 @@ class ScaleFreeSim_test : public beast::unit_test::suite
             sim.rng);
 
         // nodes with a trust line in either direction are network-connected
-        network.connectFromTrust(
-            round<milliseconds>(0.2 * parms.ledgerGRANULARITY));
+        boost::mt19937 gen;
+        boost::random::uniform_int_distribution<> dist(200, 400);
+        //network.connectFromTrust(
+        //    round<milliseconds>(0.001 * dist(gen) * parms.ledgerGRANULARITY));
+        network.connectFromTrustRandom();
+
+        //fixed delays, and randomly assign some a fraction of the connections to use one delay versus the other.
 
         // Initialize collectors to track statistics to report
         TxCollector txCollector;
@@ -127,7 +134,7 @@ class ScaleFreeSim_test : public beast::unit_test::suite
         HeartbeatTimer heart(sim.scheduler, seconds(10s));
 
         // Run for 10 minues, submitting 100 tx/second
-        std::chrono::nanoseconds simDuration = 10min;
+        std::chrono::nanoseconds simDuration = 5min;
         std::chrono::nanoseconds quiet = 10s;
         Rate rate{100, 1000ms};
 

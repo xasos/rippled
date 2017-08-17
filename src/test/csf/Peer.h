@@ -21,9 +21,12 @@
 
 #include <ripple/consensus/Consensus.h>
 #include <ripple/beast/utility/WrappedSink.h>
+#include <ripple/beast/clock/manual_clock.h>
 #include <ripple/consensus/Validations.h>
 #include <boost/container/flat_map.hpp>
 #include <boost/container/flat_set.hpp>
+#include <boost/random/mersenne_twister.hpp>
+#include <boost/random/uniform_int_distribution.hpp>
 #include <algorithm>
 #include <test/csf/CollectorRef.h>
 #include <test/csf/Scheduler.h>
@@ -32,6 +35,7 @@
 #include <test/csf/Validation.h>
 #include <test/csf/events.h>
 #include <test/csf/ledgers.h>
+#include <utility>
 
 namespace ripple {
 namespace test {
@@ -983,6 +987,32 @@ public:
             for (Peer * to : peer->trustGraph.trustedPeers(peer))
             {
                 peer->connect(*to, delay);
+            }
+        }
+    }
+
+    void
+    connectFromTrustRandom()
+    {
+        ConsensusParms consensusParms;
+        boost::mt19937 gen;
+        boost::random::uniform_int_distribution<> dist(200, 400);
+        int count = 0;
+
+        for (Peer * peer : peers_)
+        {
+            count++;
+            for (Peer * to : peer->trustGraph.trustedPeers(peer))
+            {
+                std::cout << "count: " << count << std::endl;
+                if (count >= 50) {
+                    std::cout << "inside count loop" << std::endl;
+                    //peer->connect(*to, round<milliseconds>(0.001 * dist(gen) * consensusParms.ledgerGRANULARITY));
+                    peer->connect(*to, round<std::chrono::milliseconds>(0.8 * consensusParms.ledgerGRANULARITY));
+                }
+                else {
+                    peer->connect(*to, round<std::chrono::milliseconds>(0.8 * consensusParms.ledgerGRANULARITY));
+                }
             }
         }
     }
