@@ -33,6 +33,7 @@
 #include <ripple/server/SimpleWriter.h>
 
 #include <boost/utility/in_place_factory.hpp>
+#include <unordered_map>
 
 namespace ripple {
 
@@ -802,6 +803,7 @@ bool
 OverlayImpl::processRequest (http_request_type const& req,
     Handoff& handoff)
 {
+    // turn this into a hashtable of routes
     if (req.target() != "/crawl")
         return false;
 
